@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-05-30T01:18:05",
+  "experiments": [
+    {
+      "name": "rank4_qv_qlora",
+      "group": "rank",
+      "description": "rank=4, q_proj+v_proj, QLoRA 4bit",
+      "rank": 4,
+      "alpha": 8,
+      "target_modules": [
+        "q_proj",
+        "v_proj"
+      ],
+      "load_in_4bit": true,
+      "torch_dtype": "float16",
+      "optim": "paged_adamw_8bit"
+    },
+    {
+      "name": "rank16_qv_qlora",
+      "group": "rank",
+      "description": "rank=16, q_proj+v_proj, QLoRA 4bit; baseline LoRA setting",
+      "rank": 16,
+      "alpha": 32,
+      "target_modules": [
+        "q_proj",
+        "v_proj"
+      ],
+      "load_in_4bit": true,
+      "torch_dtype": "float16",
+      "optim": "paged_adamw_8bit"
+    },
+    {
+      "name": "rank64_qv_qlora",
+      "group": "rank",
+      "description": "rank=64, q_proj+v_proj, QLoRA 4bit",
+      "rank": 64,
+      "alpha": 128,
+      "target_modules": [
+        "q_proj",
+        "v_proj"
+      ],
+      "load_in_4bit": true,
+      "torch_dtype": "float16",
+      "optim": "paged_adamw_8bit"
+    },
+    {
+      "name": "rank16_all_linear_qlora",
+      "group": "target_modules",
+      "description": "rank=16, all linear projection modules, QLoRA 4bit",
+      "rank": 16,
+      "alpha": 32,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "load_in_4bit": true,
+      "torch_dtype": "float16",
+      "optim": "paged_adamw_8bit"
+    },
+    {
+      "name": "rank16_qv_lora_fp16",
+      "group": "quantization",
+      "description": "rank=16, q_proj+v_proj, FP16 LoRA without 4bit quantization",
+      "rank": 16,
+      "alpha": 32,
+      "target_modules": [
+        "q_proj",
+        "v_proj"
+      ],
+      "load_in_4bit": false,
+      "torch_dtype": "float16",
+      "optim": "adamw_torch"
+    }
+  ],
+  "config_paths": {
+    "rank4_qv_qlora": "/data2/songxinshuai/linsihan/ecommerce_assistant/configs/lora_ablation_baseline/rank4_qv_qlora.yaml",
+    "rank16_qv_qlora": "/data2/songxinshuai/linsihan/ecommerce_assistant/configs/lora_ablation_baseline/rank16_qv_qlora.yaml",
+    "rank64_qv_qlora": "/data2/songxinshuai/linsihan/ecommerce_assistant/configs/lora_ablation_baseline/rank64_qv_qlora.yaml",
+    "rank16_all_linear_qlora": "/data2/songxinshuai/linsihan/ecommerce_assistant/configs/lora_ablation_baseline/rank16_all_linear_qlora.yaml",
+    "rank16_qv_lora_fp16": "/data2/songxinshuai/linsihan/ecommerce_assistant/configs/lora_ablation_baseline/rank16_qv_lora_fp16.yaml"
+  },
+  "train_file": "data/processed/jddc_rebuild_v2/05_final/sft_train.jsonl",
+  "eval_file": "data/processed/jddc_rebuild_v2/05_final/sft_dev.jsonl",
+  "test_file": "data/processed/jddc_rebuild_v2/05_final/eval_test.jsonl"
+}

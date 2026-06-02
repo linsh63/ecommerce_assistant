@@ -1,0 +1,38 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Large or generated artifacts
+data/raw/**
+data/processed/**
+outputs/
+checkpoints/
+models/
+runs/
+wandb/
+logs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+!data/raw/.gitkeep
+!data/raw/extract_train.jsonl
+!data/processed/.gitkeep
+!data/processed/README.md
+
+# Only track final data files (not intermediate processing artifacts)
+!data/processed/jddc_rebuild_v2/
+!data/processed/jddc_rebuild_v2/05_final/
+!data/processed/jddc_rebuild_v2/05_final/**
+!data/processed/jddc_rebuild_v2/dpo_preference_pairs_clean.jsonl
+!data/processed/jddc_rebuild_v2/annotation_sheet.md
+
+# Brain docs — local only
+docs/brain/

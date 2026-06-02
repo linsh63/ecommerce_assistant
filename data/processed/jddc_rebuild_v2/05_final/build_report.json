@@ -1,0 +1,70 @@
+{
+  "train_total": 4105,
+  "dev_total": 513,
+  "test_total": 150,
+  "train_source": "/Users/linsh/Documents/Recommendation/project/ProjectSet/ecommerce_assistant/data/processed/jddc_rebuild_v2/04_deepseek_rewritten/train_source_rewritten.jsonl",
+  "dev_source": "/Users/linsh/Documents/Recommendation/project/ProjectSet/ecommerce_assistant/data/processed/jddc_rebuild_v2/04_deepseek_rewritten/dev_source_rewritten.jsonl",
+  "test_source": "/Users/linsh/Documents/Recommendation/project/ProjectSet/ecommerce_assistant/data/processed/jddc_rebuild_v2/04_deepseek_rewritten/test_source_rewritten.jsonl",
+  "allow_source_fallback": true,
+  "note": "eval_set_shrunk_to_150",
+  "summaries": {
+    "train": {
+      "total": 4105,
+      "by_intent": {
+        "售后-退换维修": 618,
+        "退款-取消价保": 612,
+        "物流-配送调整": 610,
+        "物流-查件催发": 555,
+        "闲聊-礼貌收尾": 505,
+        "发票-资质服务": 408,
+        "商品咨询-使用方法": 279,
+        "价格活动-优惠赠品": 270,
+        "售后-质量异常": 117,
+        "商品咨询-参数": 68,
+        "投诉-安抚升级": 34,
+        "购买决策-推荐对比": 29
+      }
+    },
+    "dev": {
+      "total": 513,
+      "by_intent": {
+        "售后-退换维修": 84,
+        "物流-查件催发": 75,
+        "物流-配送调整": 75,
+        "退款-取消价保": 70,
+        "闲聊-礼貌收尾": 62,
+        "发票-资质服务": 52,
+        "商品咨询-使用方法": 33,
+        "价格活动-优惠赠品": 32,
+        "商品咨询-参数": 12,
+        "售后-质量异常": 10,
+        "购买决策-推荐对比": 4,
+        "投诉-安抚升级": 4
+      }
+    },
+    "eval": {
+      "total": 150,
+      "by_intent": {
+        "售后-退换维修": 21,
+        "物流-配送调整": 20,
+        "物流-查件催发": 18,
+        "退款-取消价保": 18,
+        "闲聊-礼貌收尾": 16,
+        "发票-资质服务": 14,
+        "商品咨询-使用方法": 9,
+        "商品咨询-参数": 8,
+        "价格活动-优惠赠品": 8,
+        "售后-质量异常": 8,
+        "购买决策-推荐对比": 6,
+        "投诉-安抚升级": 4
+      }
+    }
+  },
+  "files": {
+    "sft_train": "/Users/linsh/Documents/Recommendation/project/ProjectSet/ecommerce_assistant/data/processed/jddc_rebuild_v2/05_final/sft_train.jsonl",
+    "sft_dev": "/Users/linsh/Documents/Recommendation/project/ProjectSet/ecommerce_assistant/data/processed/jddc_rebuild_v2/05_final/sft_dev.jsonl",
+    "eval_test": "/Users/linsh/Documents/Recommendation/project/ProjectSet/ecommerce_assistant/data/processed/jddc_rebuild_v2/05_final/eval_test.jsonl",
+    "eval_test_review": "/Users/linsh/Documents/Recommendation/project/ProjectSet/ecommerce_assistant/data/processed/jddc_rebuild_v2/05_final/eval_test_review.md",
+    "eval_test_annotation": "/Users/linsh/Documents/Recommendation/project/ProjectSet/ecommerce_assistant/data/processed/jddc_rebuild_v2/05_final/eval_test_annotation.json"
+  }
+}

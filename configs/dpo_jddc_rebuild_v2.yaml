@@ -1,0 +1,39 @@
+model:
+  # Path to the best SFT LoRA adapter (rank16_qv_qlora from ablation)
+  sft_adapter_path: outputs/sft_lora_qwen3_8b_jddc_rebuild_v2_augmented
+  base_model: Qwen/Qwen3-8B
+  trust_remote_code: true
+  torch_dtype: float16
+  load_in_4bit: true
+
+dpo:
+  # beta: KL penalty strength. 0.1 = moderate, 0.05 = aggressive, 0.3 = conservative.
+  # Start with 0.1, then try 0.05 and 0.3 for ablation.
+  beta: 0.1
+  max_prompt_length: 1024
+  max_length: 2048
+  learning_rate: 0.00005
+  num_train_epochs: 1
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 8
+  warmup_ratio: 0.1
+  lr_scheduler_type: cosine
+  logging_steps: 10
+  save_steps: 200
+  eval_steps: 200
+  max_grad_norm: 1.0
+  gradient_checkpointing: true
+  bf16: false
+  fp16: true
+  optim: paged_adamw_8bit
+  seed: 42
+  save_total_limit: 2
+  report_to: none
+  output_dir: outputs/dpo_jddc_rebuild_v2
+
+data:
+  train_file: data/processed/jddc_rebuild_v2/dpo_preference_pairs.jsonl
+  eval_file: data/processed/jddc_rebuild_v2/05_final/sft_dev.jsonl
+  max_samples: null
+  max_eval_samples: 200

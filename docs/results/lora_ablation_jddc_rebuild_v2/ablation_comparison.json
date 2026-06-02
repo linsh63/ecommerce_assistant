@@ -1,0 +1,4952 @@
+[
+  {
+    "id": "dev_migrated_raw_002420_209913ba",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。请问还有其他可以帮您的吗？"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。请问还有其他可以帮您的吗？"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。请问还有其他可以帮您的吗？"
+      }
+    }
+  },
+  {
+    "id": "dev_migrated_raw_003946_e26a581a",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。如果后续需要安装服务，您可以在订单详情页找到“申请售后”入口，选择“安装服务”，提交申请后会有售后专员联系您安排上门安装。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果师傅没有告知后续安装服务，您可以在订单详情页查看是否有预约安装记录。如果没有，建议您联系平台客服或拨打厂家售后热线预约安装。安装时请确认师傅是否携带工具包，并检查冰箱脚是否调平，门封条是否完好。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果送货时没有安排安装，您可以在订单详情页查看是否有“安装服务”选项，若有的话可以联系平台预约。如果没有该选项，说明该商品不包含安装服务，您需要自行联系第三方安装。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，送货时师傅会告知后续安装事宜。如果当时未提及，您可以联系厂家预约安装服务。安装通常包含基础设置和调试，具体费用以厂家报价为准。您也可以登录品牌官网或拨打售后热线查询安装服务。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果师傅没有告知后续安装服务，您可以在订单详情页查看是否有“安装服务”选项，或联系平台客服确认是否包含安装。如果已开箱，建议您按说明书操作，如有疑问可拨打品牌官方售后热线咨询。"
+      }
+    }
+  },
+  {
+    "id": "dev_migrated_raw_011684_52ebc4e6",
+    "prompt": "",
+    "expected_intent": "投诉-安抚升级",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于商品库存紧张，我们正在协调尽快发货。请您放心，我们会优先处理您的订单，确保尽快送达。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于商品库存紧张，配送可能需要更长时间。建议您通过订单详情页查看最新物流状态，或联系快递公司催促配送。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于订单量大，物流可能会有延迟，建议您以订单详情页的物流信息为准。如果长时间未更新，您可以联系快递公司或平台客服进一步处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。建议您通过订单详情页查看最新物流轨迹，如有异常可联系快递公司或平台客服进一步处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于商品需要调货，预计会延迟几天，请您谅解。您可以在订单详情页查看最新物流动态，如有疑问可联系平台客服进一步处理。"
+      }
+    }
+  },
+  {
+    "id": "dev_migrated_raw_019245_83bea3d7",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。请问还有其他可以帮您的吗？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。请问还有其他可以帮您的吗？"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，感谢您的理解与支持，祝您生活愉快！"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，感谢您的理解与支持！如果后续有任何问题，随时联系我们。祝您生活愉快！"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。请问还有其他可以帮您的吗？"
+      }
+    }
+  },
+  {
+    "id": "dev_migrated_raw_030634_db9c464d",
+    "prompt": "",
+    "expected_intent": "投诉-安抚升级",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "根据售后政策，换货通常不承担运费，但具体以售后审核结果为准。建议您提交售后申请后，等待审核结果，如有运费补偿会通知您。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "换货的话，运费一般由我们承担，您不需要支付。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，换货一般不承担运费，但如果是质量问题，运费由我们承担。请您将商品寄回，并在售后页面上传问题凭证，我们会为您处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，由于之前联系不上厂家，我们无法核实具体补偿金额。建议您先将商品寄回，并在售后页面提交单号，我们会尽快为您处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "根据规则，换货需要您承担运费，但厂家会补偿您。"
+      }
+    }
+  },
+  {
+    "id": "raw_000683_972e7226",
+    "prompt": "",
+    "expected_intent": "购买决策-推荐对比",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在结算页面选择“使用E卡”并输入卡号，系统会自动扣除E卡余额。如果E卡不足，页面会提示您补足差额，然后提交订单即可。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在结算页面选择“使用E卡”并输入卡号，系统会自动扣除E卡余额。如果E卡不足，可以勾选“不足部分使用银行卡支付”，这样E卡和银行卡都会扣款。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在结算页面选择使用E卡支付，系统会自动扣除E卡余额。如果E卡不足，可以手动选择其他支付方式。提交订单后不会自动转到银行卡，请以结算页显示为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在提交订单前，在结算页面选择使用E卡支付，系统会优先扣除E卡余额。如果E卡不足，剩余金额会自动转到银行卡支付。具体以订单结算页显示为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在结算页面选择“使用E卡”来支付，系统会优先扣除E卡余额，不足部分再从银行卡扣款。"
+      }
+    }
+  },
+  {
+    "id": "raw_001107_656f8fa7",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "安装轮胎的订单需要您自行联系安装师傅预约。您可以在商品详情页或安装服务页面查看安装指引，或拨打厂家客服热线获取安装支持。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "安装轮胎需要您自行联系当地门店或专业师傅进行安装，具体流程以门店为准。您可以在京东APP搜索“轮胎安装”，查看附近门店信息并预约。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "安装服务需要单独下单，您可以进入订单页面，找到安装服务入口进行购买。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "安装服务需要您自行联系安装商。您可以在商品详情页或订单详情页查看安装商联系方式，或者拨打平台客服热线获取帮助。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "安装轮胎需要您自行联系当地轮胎店或4S店进行安装。您可以查看商品详情页或咨询页面是否有合作门店信息，也可以拨打厂家客服热线获取安装指导。"
+      }
+    }
+  },
+  {
+    "id": "raw_001109_d53c7083",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "短信是发送到您下单时填写的手机号上的，请确认是否是这个号码。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "短信是发送到您下单时填写的手机号上的，请确认号码是否正确。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "短信会发送到您下单时填写的手机号。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "安装码会在订单完成后发送到您的手机上，请留意短信。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "短信会发送到您下单时填写的手机号，请确认该号码是否正确。如果号码有误，建议您联系平台客服修改绑定手机号后再查看短信。"
+      }
+    }
+  },
+  {
+    "id": "raw_001198_762b1226",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。您的订单预计在今天送达，但因配送站点人手不足，可能会延迟。建议您关注物流详情页，如有异常可联系平台客服处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单预计明天送达，目前还未出库。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单已到达站点，正在安排配送中。建议您关注物流详情页，如有需要可联系快递员协商配送时间。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单已到达当地站点，预计今天会送达。建议您关注物流信息，或联系快递公司确认具体时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单预计今天送达，但目前还未到达站点。建议您关注物流详情页，如有异常可联系快递公司核实。"
+      }
+    }
+  },
+  {
+    "id": "raw_001302_ef17b7cc",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "厂家售后电话是400-800-9999，安装费用以订单详情页显示为准，通常免费。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "厂家售后电话是400-XXX-XXXX，安装费用根据您所在地区和商品型号有所不同，建议您联系厂家确认具体费用。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "厂家售后电话是 400-xxx-xxxx，安装费用以您预约时确认为准，通常基础安装免费，复杂安装可能收取一定费用。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "厂家售后电话是 400-xxx-xxxx，您直接联系预约即可。安装费用以厂家规定为准，通常基础安装免费，但若涉及复杂改造可能收取一定费用，具体可咨询厂家确认。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "厂家售后电话是400-XXX-XXXX，安装费用根据地区和具体情况而定，建议您直接联系厂家确认。"
+      }
+    }
+  },
+  {
+    "id": "raw_002229_aefb8253",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的焦急。由于年货节期间订单量激增，配送确实会延迟。建议您通过订单详情页查看最新物流轨迹，或联系快递公司官方客服核实。我们会持续跟进，直到包裹送达。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的焦急。目前包裹在明月湾站点，距离您很近。由于年货节期间订单量大，配送确实会延迟。建议您通过订单详情页查看最新物流轨迹，并联系快递公司官方客服催促配送。如果仍未解决，可以申请售后处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的焦急。由于年货节期间订单量激增，部分包裹可能因分拣和配送压力出现延迟。建议您通过订单详情页查看最新物流轨迹，并联系快递公司官方客服催促配送。我们也会持续跟进直到您签收，请您放心。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的焦急心情。由于年货节期间包裹量激增，站点爆仓导致配送延迟，我们正在全力协调。建议您通过订单详情页查看最新物流轨迹，并联系配送员确认具体时间。如果仍未解决，可以申请平台介入处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的焦急。由于年货节期间订单量激增，配送确实会延迟。建议您通过订单详情页查看最新物流轨迹，或联系平台官方客服热线进一步催促配送。我们会持续跟进直到您收到包裹。"
+      }
+    }
+  },
+  {
+    "id": "raw_003002_43117416",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在明天送达，请您留意收货时间。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在今天送达，请您留意收货。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在3月15日送达，请您留意收货。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在3月15日送达，请您留意收货。如需查询实时物流轨迹，可在订单详情页点击“查看物流”获取最新信息。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问有什么可以帮您的？"
+      }
+    }
+  },
+  {
+    "id": "raw_003040_496db22f",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您可以在订单详情页找到“申请开票”入口，按提示填写信息即可。如果需要电子发票，系统会自动发送到您的邮箱；纸质发票则需联系财务部门处理。具体以订单页面显示为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您可以在订单详情页找到“申请开票”入口，按提示填写抬头和税号即可。如果需要电子发票，系统会自动发送到您的邮箱。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该订单开具的是电子发票，您可以在订单详情页查看并下载。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，此订单开具的是电子发票，订单完成后48小时内会自动开具，您可以在订单详情页查看或下载。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您可以在订单详情页找到“申请开票”入口，按提示填写抬头和税号即可。如果需要电子发票，系统会自动发送到您的邮箱。"
+      }
+    }
+  },
+  {
+    "id": "raw_003137_94af1481",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后无法直接修改地址。建议您联系快递员协商转寄，或查看订单详情页是否有“修改地址”按钮尝试自助操作。如果无法修改，可以拒收后重新下单。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。建议您联系快递员协商转寄，或者查看订单详情页是否有“修改”按钮尝试自行修改。如果已出库，可能无法修改，只能等配送时与配送员沟通。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果包裹还未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果订单尚未出库，您可以尝试在订单详情页点击“修改地址”自行操作；如果已出库，则无法修改。建议您先查看订单状态，若显示“已发货”，可联系快递员协商转寄或拒收。具体以订单页面显示为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，订单一旦提交后无法修改地址。建议您联系快递员协商转寄，或者等包裹到达后拒收重新下单。"
+      }
+    }
+  },
+  {
+    "id": "raw_003236_12236c82",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会为您备注，尽量安排在下午之后。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会为您备注取件时间调整为下午以后，请您放心。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会帮您备注取件时间，但具体能否调整以快递员实际安排为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，已为您备注取件时间调整为下午以后，请留意后续取件通知。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会帮您备注一下，尽量安排在下午。"
+      }
+    }
+  },
+  {
+    "id": "raw_003471_3818c415",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，祝您生活愉快！"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，祝您生活愉快！"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您太客气啦，有需要随时联系我，祝您生活愉快！"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您太客气了，这是我应该做的。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，祝您生活愉快！"
+      }
+    }
+  },
+  {
+    "id": "raw_003732_61e4ca6d",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的顾虑。我们会提前联系您，确保您或家人能接听电话。如果还有其他问题，随时联系我们。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的顾虑。我们会提前联系您指定的电话号码，确保配送时间合适。如果还有其他问题，随时联系我们。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的顾虑。农村地区配送时我们会特别注意，建议您也可以关注订单详情页的物流信息，或联系平台客服确认配送时间。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的顾虑。农村地址可能较偏，我们会特别注意。建议您也可以关注订单详情页的物流信息，或联系平台客服确认配送时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的担心。我们会提前联系您，如果电话无法接通，也会尝试联系其他家庭成员，比如老人，确保配送顺利。您也可以关注订单详情页的物流信息，如有疑问随时联系我们。"
+      }
+    }
+  },
+  {
+    "id": "raw_004486_2e709acf",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前无法保证今晚送达，建议您查看订单详情页的预计送达时间，以实际页面显示为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，目前无法保证今天送达。建议您查看订单详情页的预计送达时间，或联系配送员协商具体时间。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，目前订单已出库，无法更改配送时间。建议您关注物流信息，如有疑问可联系快递公司协商。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前订单还未出库，无法预约配送。建议您关注订单详情页的物流信息，出库后可联系快递员协商配送时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前无法预约，建议您关注订单详情页的物流信息，或联系快递公司确认配送时间。"
+      }
+    }
+  },
+  {
+    "id": "raw_004780_f9a7dc5a",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "主产品可以申请退货，但需要确认是否符合退货条件。您可以在订单详情页找到“申请售后”入口，选择退货并上传商品照片，审核通过后即可安排取件。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "主产品可以申请退货退款，但需要确认是否符合退货条件。您可以在订单详情页找到“申请售后”入口，选择退货退款并上传凭证（如商品照片、未拆封证明等）。如果商品已拆封或无法二次销售，可能无法全额退款，具体以审核结果为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "主产品可以申请退货，但需要确认是否符合退货条件。您可以在订单详情页找到“申请售后”入口，选择退货并上传商品照片，审核通过后会有快递上门取件。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "主产品可以申请售后退货，您可以在订单详情页找到售后入口，提交退货申请并上传凭证。安装服务同样可以申请售后，但需确认是否已安装。如果已安装，可能无法直接退货，建议联系安装师傅协商处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "主产品可以申请退货退款，安装服务也可以申请。您可以在订单详情页找到售后入口，提交退货申请并上传凭证（如商品照片、未拆封证明等）。如果商品已拆封或无法二次销售，可能会影响退款时效，请尽快处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_005032_c1cf7828",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到该商品，点击“申请售后”选择“补发”，按页面提示操作即可。如果无法自助处理，请联系在线客服提供订单号，我们会为您人工介入。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，选择“补发”并填写相关信息。如果无法操作，建议联系在线客服处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，我会为您提交补发申请，无需修改地址。补发会在24小时内安排发出，请留意物流信息。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，选择“少件/漏发”，按提示提交凭证即可。如果无法自助操作，也可以联系我帮您处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，选择“补发”并填写相关信息。如果无法操作，建议联系在线客服处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_005766_14a0e76d",
+    "prompt": "",
+    "expected_intent": "售后-质量异常",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以放心，旧拍我们会妥善处理的，不会随意丢弃。如果您希望保留，建议您联系售后部门申请退货或换货，具体以订单详情页的售后入口为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，您放心，我们会妥善处理的。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以放心，我们是有回收渠道的，不会浪费任何一件商品。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，实在不好意思，旧拍无法给您处理的。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，旧拍我们会妥善处理的，不会随意丢弃。如果您想让家人使用，建议您联系售后申请退货或换货，届时我们会为您安排。"
+      }
+    }
+  },
+  {
+    "id": "raw_006150_18410b42",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，如果收到后发现质量问题，可以申请售后处理。具体操作：登录京东APP，在“我的”页面点击“客户服务”，选择“退换/售后”，按提示上传问题照片并提交申请。我们会尽快为您处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，如果收到后发现质量问题，可以申请售后处理。您可以在订单详情页找到“申请售后”入口，按提示提交问题描述和凭证，我们会尽快为您安排换货或维修。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，商品在签收前可以申请拒收，如果确实有质量问题，我们也会为您处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，我们提供完善的售后保障。如果收到后发现镜头有质量问题，请及时拍照或视频联系售后，我们会为您处理退换货或维修。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，如果收到后发现质量问题，可以申请售后处理。您可以在订单详情页找到“申请售后”入口，按提示提交问题描述和凭证，我们会尽快为您解决。"
+      }
+    }
+  },
+  {
+    "id": "raw_006549_f1173564",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改地址。如果需要更改，请您查看订单详情页是否有“修改”按钮，若存在可自行操作；若无，则建议您联系快递公司协商转寄或拒收后重新下单。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后，地址信息无法直接修改。如果新地址距离原地址不远，您可以联系快递员协商转寄；如果距离较远，建议您取消当前订单重新下单，并填写正确地址。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果商品还未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您收到后拒收并重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果新地址距离原地址不远，您可以尝试联系快递员协商转寄；如果距离较远，建议您取消订单重新下单。具体以订单详情页显示为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_006639_5f3f9745",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品目前缺货，预计一周后到货并发货。您可以在订单详情页查看最新物流信息，或联系平台客服确认具体到货时间。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前该商品暂时缺货，预计一周左右到货后会尽快为您发出。您可以在订单详情页查看最新物流状态，如有疑问可联系平台客服核实。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前该商品暂时缺货，预计一周左右到货后会尽快为您发出。建议您关注订单详情页的物流更新，如有疑问可联系平台客服核实。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前该商品暂时缺货，预计一周左右到货并发出。您可以在订单详情页查看最新物流状态，如有疑问可联系平台客服核实。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品目前有现货，但需要等待一段时间才能发货。您可以在订单详情页查看预计发货时间，或联系平台客服获取更准确的信息。"
+      }
+    }
+  },
+  {
+    "id": "raw_007236_284fbc78",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦取消就无法恢复了。建议您重新下单购买该商品。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "很抱歉，订单一旦取消无法恢复。如果您需要重新下单，可以尝试在订单详情页点击“重新下单”按钮，系统会根据当前库存和价格为您生成新订单。如果该按钮不可用，请联系平台客服处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "很抱歉，订单一旦取消无法恢复。如果您需要商品，建议重新下单购买。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果订单已经取消成功，是无法恢复的。建议您重新下单购买。如果您需要开具发票，可以在订单详情页申请电子发票。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦取消就无法恢复了。如果您需要重新下单，可以尝试在订单详情页点击“重新下单”按钮，系统会根据库存情况为您生成新订单。如果该商品已缺货，请您关注补货通知或联系在线客服确认。"
+      }
+    }
+  },
+  {
+    "id": "raw_007724_0af2207c",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "自提点信息已为您找到，地址是：重庆市渝中区两路口长江一路18号，电话023-63759999。您可以在京东APP的“我的订单”中查看具体自提点位置和营业时间。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "抱歉，目前没有查询到该地址的自提点信息。建议您查看京东APP首页的“我的订单”中找到对应订单，点击“查看物流”或“联系客服”，系统会显示更准确的自提点位置。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前没有查询到该地址的自提点信息。建议您联系配送员协商送货上门，或者在订单详情页查看其他自提点位置。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前查询到离您最近的自提点是重庆沙坪坝站，地址是重庆市沙坪坝区小龙坎正街。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "抱歉让您久等了。目前没有查询到重庆洋人街附近的自提点信息。建议您在订单详情页查看“自提点”选项，或联系京东客服获取更准确的位置。"
+      }
+    }
+  },
+  {
+    "id": "raw_008012_0d888da6",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。您的订单预计在年后重新发货，目前尚未送达。建议您关注订单详情页的物流更新，如有异常可联系平台客服处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。您的订单已由仓库处理，预计年后会安排发货，请您耐心等待。如有其他问题，随时联系我们。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您查询最新物流状态，并联系快递公司催促配送。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于年前快递停运，您的订单已延期至年后重新安排发货。建议您通过订单详情页查看最新物流状态，或联系平台客服获取更具体的处理进度。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。您的订单因春节假期延迟了配送，目前正在安排重新发货。建议您通过订单详情页查看最新物流信息，或联系快递公司确认具体时间。"
+      }
+    }
+  },
+  {
+    "id": "raw_008176_0b13e4b9",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。您提到的问题是关于售后换货申请被卡在补充描述环节。建议您通过订单详情页的“申请售后”入口重新提交，或联系平台官方客服进一步核实处理进度。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。您提到的手机返回键失灵问题，建议您通过京东APP的“我的-客户服务-退换/售后”入口重新提交售后申请，并在描述中详细说明故障现象和已补充的信息。如果仍无法提交，请联系在线客服或拨打京东售后热线进一步处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。根据您描述的情况，建议您通过订单详情页的“申请售后”入口重新提交换货申请，并上传手机故障视频或照片作为凭证。如果系统仍提示补充，请检查是否已完整填写所有必填项，包括问题描述和凭证材料。若仍有疑问，可联系平台官方客服进一步处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。根据您描述的情况，建议您通过订单详情页的“申请售后”入口，选择“换货”，并上传手机故障视频或照片作为凭证。如果系统仍提示补充，请检查是否已完整填写问题描述，并点击“提交”按钮。若问题依旧，可联系在线客服提供订单号进一步处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。建议您重新提交一次换货申请，在提交时确保所有信息完整准确，包括问题描述和凭证上传。如果仍然无法提交，请联系在线客服或拨打售后热线，我们会为您人工处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_008930_228bef92",
+    "prompt": "",
+    "expected_intent": "商品咨询-参数",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后无法直接修改尺寸。如果您已经收到商品，可以尝试在商品页面找到“换货”或“退换货”入口，按提示操作。如果商品尚未发货，建议您联系平台客服申请修改，但最终以订单详情页显示为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后无法直接修改尺寸。建议您取消当前订单重新下单，选择L码的商品。如果商品有现货，可以尽快为您安排发货。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后无法直接修改尺寸。建议您取消当前订单重新下单，选择正确的尺码。取消订单可在订单详情页操作，如有疑问可联系在线客服。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后无法修改尺寸。建议您取消当前订单重新下单，或者等收到货后申请退货换货。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改规格或尺寸。建议您查看订单详情页是否有“修改”按钮，若存在可尝试自行修改；若无，则需联系快递员协商转寄或拒收后重新下单。具体以订单页面显示为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_009105_9e1e2a4d",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到售后入口，提交申请后会有专员处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到售后入口，提交售后申请后，系统会自动审核。审核通过后，我们会安排补发，请留意售后页面的进度更新。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，提交后系统会审核处理。如果已签收，建议您先确认收到退货凭证，然后根据页面提示选择换货或退款。具体进度以售后页面显示为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，提交售后申请后，审核通过后会有售后专员联系您处理换货事宜。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到售后入口，提交申请后会有专员跟进处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_010117_972b5bef",
+    "prompt": "",
+    "expected_intent": "购买决策-推荐对比",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东APP搜索“同款手机”，或者查看商品详情页的“同款推荐”栏目，也可以联系在线客服获取更详细的建议。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您之前购买的是某型号，目前有其他款式，您可以查看商品页面或联系在线客服获取最新信息。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东APP搜索该商品名称，查看相关商品列表。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东首页搜索该商品，会有相关结果。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您之前购买的是华为Mate 50E，同款有华为Mate 50E和华为Mate 50E 128GB版本。"
+      }
+    }
+  },
+  {
+    "id": "raw_010194_e1f9b562",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，价保申请需要满足一定条件，比如订单未签收或签收后一定时间内。您可以在订单详情页找到“申请价保”入口，按提示操作即可。如果不符合条件，建议您直接申请退货退款。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以申请价格保护，但需要满足一定条件。具体规则以订单详情页的“价格保护”入口为准，您可以在下单后7天内提交申请，系统会自动审核。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前没有价保记录，请您重新下单（不付款），将新订单号提供给我，我会为您核实差价。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以申请价格保护。在订单详情页找到“申请价保”入口，系统会自动计算差价并原路退回。如果不符合条件，建议您关注其他优惠活动。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以申请价格保护，但需要满足一定条件。具体以订单详情页的价保入口为准，请您自行操作。"
+      }
+    }
+  },
+  {
+    "id": "raw_010322_da27dfd4",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票通常会随货一起发出，但具体以订单详情页显示的物流信息为准。您可以在订单页面查看发票状态，若未显示，说明尚未随货发出，待发货后会更新。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票通常与商品一起发出，但具体以订单详情页显示的物流信息为准。您可以在订单页面查看物流进度，若发票未随货发出，可联系平台客服处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票通常会和商品一起寄送，但具体以订单详情页显示的物流信息为准。如果明天收到购物卡但未收到发票，您可以联系京东客服或通过订单页面申请补开发票。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票通常随货发出，但具体以订单详情页显示为准。如果明天收到购物卡但未收到发票，您可以联系平台客服核实处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票通常与商品一起发出，但具体以订单详情页显示的物流信息为准。如果明天商品送达，发票应该也会同时到达。您可以在订单详情页查看物流进度，或联系快递公司确认包裹内是否有发票。"
+      }
+    }
+  },
+  {
+    "id": "raw_010934_7e3b933f",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改地址。建议您查看订单详情页是否有“修改”按钮，若显示可修改则点击尝试；若不可修改，请联系快递员协商转寄或拒收后重新下单。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改地址。如果商品尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改地址。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您想修改地址的需求。不过订单一旦提交后，系统限制无法直接修改收货信息。建议您取消当前订单重新下单，或者等包裹到达站点后联系快递员转寄。您看哪种方式更方便？"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改地址。如果新地址距离原地址较近（如同一街道或相邻小区），您可以尝试联系配送员协商转送。您可以在订单详情页查看配送员电话，或联系平台客服协助处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_011080_0a3d577e",
+    "prompt": "",
+    "expected_intent": "售后-质量异常",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，如果您用原装线仍无法充电，请随时联系我们，我们会尽快为您处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，如果您用原装线仍无法充电，请提供订单号，我会帮您提交售后申请。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，请您用原装充电线连接充电器和手机，观察是否正常充电。如果问题依旧，请提供订单号，我帮您提交售后申请。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，请您用原装线充电，如果问题依旧，请提供订单号，我帮您提交售后申请。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，您先用原装线测试一下。如果还是不行，请提供订单号，我会帮您查询并提交售后申请。"
+      }
+    }
+  },
+  {
+    "id": "raw_011871_bbd14cae",
+    "prompt": "",
+    "expected_intent": "商品咨询-参数",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，订单已经提交了，无法直接修改。建议您查看订单详情页是否有“申请售后”按钮，点击后选择“换货”，按页面提示操作即可。如果页面没有该按钮，说明商品不支持换货，您可以联系平台客服进一步处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交无法修改。建议您取消当前订单重新下单，选择正确的规格。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交无法修改。建议您取消当前订单重新下单，选择正确的规格。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，订单一旦提交后无法修改商品信息，建议您取消当前订单重新下单。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，这款商品不支持换货。建议您取消当前订单重新下单，选择正确的规格。取消订单后，款项会按原支付方式退回，具体到账时间以支付渠道为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_011903_25649ff6",
+    "prompt": "",
+    "expected_intent": "售后-质量异常",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。您提到的皮套和相纸是随相机一起寄回的吗？如果这些配件未随包裹返回，建议您联系京东售后，提供订单号和缺失配件信息，他们会为您核实并安排补发或处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。您提到的皮套和相纸是随相机一起寄回的吗？如果这些配件未收到，建议您先检查包裹是否完整。若确认缺少，可以联系京东售后热线或通过订单详情页的“申请售后”入口提交缺失配件的说明，我们会尽快为您处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。您提到的皮套和相纸是随旧机一起寄回的吗？如果已经寄出，建议您通过订单详情页的“查看物流”或联系京东客服提供运单号，确认包裹状态。若确实丢失，可以申请售后处理，我们会尽快为您解决。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。您提到的皮套和相纸是随寄回的商品吗？如果是随寄回的配件，建议您查看订单详情页的售后进度，或联系京东售后客服确认寄回包裹是否完整。如果已签收但缺少配件，您可以申请售后补发或退货处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。您提到的皮套和相纸是随相机一起寄回的吗？如果已经寄出但未收到，建议您联系京东售后，提供订单号和寄回凭证，他们会为您核实并安排补发。您也可以通过京东APP“我的-客户服务-退换/售后”提交申请，上传相关照片或视频作为证据。"
+      }
+    }
+  },
+  {
+    "id": "raw_012607_7e4e24f6",
+    "prompt": "",
+    "expected_intent": "购买决策-推荐对比",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单提交后无法修改安装点。建议您联系厂家或售后热线，提供订单号和安装地址，他们会为您安排。您也可以查看订单详情页的售后入口，联系在线客服处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“修改订单”入口，如果还未出库，可以自行修改安装点；如果已出库，则无法修改，建议您联系配送员协商。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果订单还未出库，您可以尝试在订单详情页修改安装点；如果已出库，则需要联系配送员协商。建议您先查看订单状态，若显示“已发货”，请直接联系配送员说明情况。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果订单还未出库，您可以尝试在订单详情页自行修改安装点；如果已出库，则需要联系配送员协商。建议您先查看订单状态，若显示“已发货”，可直接联系配送员说明情况，通常他们会配合处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“修改订单”入口，如果允许修改，可以重新选择安装点。如果订单已出库无法修改，请联系在线客服或拨打售后热线处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_012750_4818183c",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该商品支持开具增值税普通发票，您可以在订单详情页申请开票。延保单通常随商品一同发出，您收到商品后查看包装内是否有延保卡或电子券，如有问题可联系售后核实。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该商品开具增值税普通发票，不含税。延保单是厂家赠送的，您可以在订单详情页查看或联系厂家获取。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该订单开具的是电子发票，您可以在订单详情页下载。延保单通常随商品一同提供，请检查包装内是否有纸质延保单。如有疑问，建议联系品牌官方客服确认。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，此订单开具的是电子发票，没有纸质发票。延保单会在订单完成后自动发放到您的账户，您可以在订单详情页查看进度。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该商品支持开具增值税普通发票，您可以在订单详情页申请开票。关于两年延保单，购买时已包含在商品内，请查看商品页面或联系厂家客服确认具体获取方式。"
+      }
+    }
+  },
+  {
+    "id": "raw_013064_52f106bb",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，快递到达后通常由快递员直接联系您取件。如果方便的话，您也可以查看订单详情页的物流信息，或联系快递公司确认配送时间。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，快递到达后通常由快递员电话联系您确认收货。您也可以登录京东APP，在“我的订单”中查看物流详情，或联系快递公司官方客服核实具体配送时间。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，快递到达后通常会通过电话联系您，但具体以快递员实际操作为准。您也可以登录京东APP，在“我的订单”中查看物流详情，或联系快递公司官方客服核实。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，快递到达后通常会通过电话或短信通知您，请留意接听。您也可以登录订单详情页查看物流轨迹，或联系快递公司官方客服查询具体配送时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，快递到达后会由快递员通过电话联系您确认收货时间，请保持手机畅通。如果长时间未收到电话，建议您查看订单详情页的物流信息，或联系快递公司官方客服核实。"
+      }
+    }
+  },
+  {
+    "id": "raw_013069_de11265e",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。请问还有其他需要帮助的吗？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，祝您生活愉快！"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，祝您生活愉快！"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，这是我应该做的。还有其他需要帮忙的吗？"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。请问还有其他可以帮您的吗？"
+      }
+    }
+  },
+  {
+    "id": "raw_013772_cb9c9b47",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在手机端的“我的订单”中找到该订单，点击进入详情页，然后在页面下方找到“电子发票”或“发票下载”入口，即可查看和下载已开具的发票。如果需要纸质发票，建议您联系财务部门凭订单号领取。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票已存档到财务，但无法通过手机订单号直接领取。您需要联系财务部门，提供您的订单号和身份信息，他们会为您处理。建议您查看订单详情页的发票信息或联系平台客服获取财务联系方式。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票已开具并存档，但无法通过手机订单号直接在财务处领取。您可以在订单详情页查看发票信息，或联系平台客服协助处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票已开具并存档至财务。您无法直接凭手机订单号到财务处领取，但可以联系平台客服或查看订单详情页的电子发票下载入口，通常发票会在订单完成后48小时内自动开具并可下载。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在电脑端登录后，在“我的订单”页面找到该订单，点击“查看发票”即可下载电子发票。如果需要纸质发票，建议联系财务部门确认是否可以邮寄或自取。"
+      }
+    }
+  },
+  {
+    "id": "raw_014585_336a2bb8",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在明天送达，请您留意一下。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在今天送达，请您留意一下。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您购买的商品预计在3天内送达，请您耐心等待。如果超过承诺时效仍未收到，建议您通过订单详情页查看物流轨迹，并联系快递公司或平台客服进一步核实。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品是预售商品，预计需要3-5天才能到货并发出。您可以在订单详情页查看最新物流状态，如有疑问可联系平台客服核实。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在今天送达，请您留意物流信息。如果长时间未更新，建议您通过订单详情页查看最新物流状态，或联系快递公司核实。"
+      }
+    }
+  },
+  {
+    "id": "raw_016366_9145024e",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您查看一下。如果订单尚未出库，可以尝试修改配送时间；如果已出库，则无法修改，建议您联系快递公司协商。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您查看一下。如果订单尚未出库，我可以为您修改配送时间；如果已出库，则无法修改，建议您联系快递公司协商转寄或拒收。具体以订单详情页显示的状态为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您查看一下。目前订单还未出库，可以尝试修改配送时间。建议您关注订单详情页的物流信息，以实际更新为准。如果需要进一步操作，请联系平台客服。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您查看一下。如果订单尚未出库，可以尝试修改配送时间；如果已出库，则无法修改。请您提供订单号，我帮您确认当前状态。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您查看一下。"
+      }
+    }
+  },
+  {
+    "id": "raw_016750_27a70295",
+    "prompt": "",
+    "expected_intent": "售后-质量异常",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，取消订单后重新下单时，您可以在结算页面选择支付方式，包括京东卡。如果之前订单有余额或积分，也可以尝试使用。具体以新订单页面显示的可用支付方式为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，取消订单后重新下单时，您可以在结算页面选择支付方式，包括京东卡。如果系统支持，您可以直接使用。建议您重新下单前确认商品库存和价格，以订单详情页为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，取消订单后无法直接使用京东卡支付尾款。建议您重新下单时选择支持京东卡支付的支付方式。您可以在结算页面查看可用的支付方式，或联系在线客服确认。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，取消订单后无法使用京东卡支付尾款。建议您重新下单时选择在线支付，付款前确认账户余额或银行卡是否充足。如有其他问题，请随时联系。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您之前取消的订单已经退款成功，款项已退回您的账户。如果您需要重新下单，建议您直接在订单页面重新提交，或联系平台客服确认是否支持京东卡支付尾款。"
+      }
+    }
+  },
+  {
+    "id": "raw_016950_fe3cc12e",
+    "prompt": "",
+    "expected_intent": "价格活动-优惠赠品",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，价格波动是正常的，建议您重新下单时留意当前价格。如果需要价保，请在订单详情页申请，系统会根据规则自动处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，商品价格会根据市场波动和促销活动实时调整，您看到的价格变化是正常的。如果您希望享受更低价格，可以尝试使用优惠券或参与限时秒杀活动。具体以订单结算页显示为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，商品页面显示的价格是实时更新的，您之前看到的价格可能已过期。建议您重新下单，系统会根据当前价格为您结算。如果对价格有疑问，可以查看商品详情页的“历史价格”或联系平台客服核实。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，近期活动较多，部分商品价格有调整。您可以在商品页面查看当前价格，并关注是否有其他优惠券或满减活动可以叠加使用。如果对价格变动有疑问，建议联系平台客服核实具体原因。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，商品价格会根据市场情况和促销活动动态调整，建议您关注商品页面或加入购物车查看实时价格。如果需要价保，请在订单详情页点击“申请价保”按钮，系统会自动比对历史价格并处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_017043_3404afcc",
+    "prompt": "",
+    "expected_intent": "商品咨询-参数",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页查看是否有该商品，或者联系平台客服确认库存情况。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "抱歉给您带来不便。您可以在订单详情页查看该商品是否有库存，或者联系在线客服确认。如果确实缺货，建议您申请退货退款后重新下单，或选择其他颜色款式。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "抱歉给您带来不便。您可以在京东APP搜索“掌阅iReader 6英寸原装侧翻保护套（棕色）”，查看商品详情页是否有库存信息。如果显示有货，您可以重新下单购买。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "建议您查看订单详情页的发货信息，确认是否包含该配件。如果确实缺少，可以联系平台客服申请补发或退货处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东搜索“掌阅iReader 6英寸原装侧翻保护套（棕色）”查看是否有货。如果缺货，建议您联系京东客服申请补发或换货。"
+      }
+    }
+  },
+  {
+    "id": "raw_017507_fba05973",
+    "prompt": "",
+    "expected_intent": "购买决策-推荐对比",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单提交后通常无法直接修改门店信息。建议您查看订单详情页是否有“修改”按钮，若有的话可以尝试修改；如果没有，则需要联系平台客服或通过订单页面的“申请售后”入口处理。具体以订单页面显示为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单提交后通常无法直接修改门店信息。建议您查看订单详情页是否有“修改”按钮，如果有，可以尝试修改；如果没有，说明该订单已不支持修改。如果需要更换门店，您可以联系在线客服或拨打平台客服热线申请处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改门店信息。如果订单尚未出库，您可以尝试联系在线客服申请取消或修改；如果已出库，则无法更改门店。建议您查看订单详情页的“修改”按钮，若存在修改入口，可自行操作。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改门店信息。如果订单尚未出库，您可以尝试联系客服申请拦截修改；如果已出库，则无法更改。建议您查看订单详情页的“修改”按钮，若存在该按钮可自行操作，否则需联系在线客服处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改门店信息。建议您查看订单详情页是否有“修改”按钮，如果有，可以尝试修改；如果没有，说明订单已进入不可修改状态。如果需要更换门店，您可以联系在线客服或拨打客服热线，由人工协助处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_017597_656e918f",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。由于订单已出库，无法直接修改配送时间。建议您联系快递公司协商改派，或在订单详情页查看是否有“延迟配送”选项尝试调整。如果无法操作，您可以拒收后重新下单，选择更合适的配送时间。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您担心配送时间的问题。由于订单已出库，无法直接修改配送时间。建议您联系快递员协商改签，或通过订单详情页的“联系快递”功能与配送员沟通。如果无法协调，可以申请延迟配送，但需看仓库是否支持。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您想调整配送时间的需求。由于订单已进入配送环节，建议您通过订单详情页的“联系快递员”或“修改配送时间”功能自行操作。如果无法修改，可以联系快递公司协商。具体以物流信息为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您的情况。如果包裹尚未出库，您可以尝试在订单详情页点击“修改配送时间”自行操作；如果已出库，建议您联系快递公司协商改期。具体以物流信息为准，您也可以查看订单详情页的物流跟踪记录，或联系平台客服协助处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您想调整配送时间的需求。由于订单已进入配送环节，建议您通过订单详情页的“联系快递员”功能与配送员协商改签时间，或联系平台客服协助处理。具体能否成功以快递员实际安排为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_017957_46035bf8",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果明天没人签收，建议您联系快递员协商将包裹暂存在附近站点或改日配送。您也可以通过订单详情页的“联系客服”功能，告知我们您的需求，我们会协助处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您的情况。由于配送员无法代收，建议您联系配送员协商将包裹暂放附近安全地点。您也可以通过订单详情页查看配送员联系方式，直接与他沟通。如果实在不方便，可以申请延迟配送或拒收，但拒收后需承担退回运费。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果明天家中无人，建议您联系配送员协商将包裹暂时放置在附近的安全地点，比如小区门卫室或快递柜。您也可以登录订单详情页，在“我的订单”中找到该订单，点击“联系配送”与配送员沟通具体安排。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果包裹已到达站点，您可以联系站点协商转寄或代收。具体操作建议您查看订单详情页的物流信息，或直接联系快递公司客服处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，配送前会提前电话联系您确认时间，如果确实不方便，建议您联系快递员协商改期或转寄到附近站点。您也可以查看订单详情页的物流信息，联系快递公司客服处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_018030_dbb58b6f",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，如果订单已生成且无法修改末级地址，建议您联系快递公司协商转寄，或者等包裹到达后拒收重新下单。具体以订单详情页显示为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，如果订单已生成且未出库，您可以尝试在订单详情页点击“修改”按钮，看看是否能修改到本省地址。若仍无法修改，建议您联系快递公司协商转寄，具体以订单页面显示为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，如果订单已出库，我们无法为您修改地址。建议您联系快递公司尝试转寄，或者等包裹到达后拒收并重新下单。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，如果订单详情页没有修改按钮，说明该订单已无法修改地址。建议您取消订单重新下单，或者等包裹到达后拒收，我们会为您处理退款。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，如果订单详情页没有“修改”按钮，说明订单已无法修改地址。建议您取消订单重新下单，填写新地址即可。"
+      }
+    }
+  },
+  {
+    "id": "raw_019493_caa7f643",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到电子发票，下载后自行打印即可。如果需要纸质发票，建议您联系平台客服申请开具。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到电子发票，下载后自行打印即可。如果需要修改，建议您联系平台客服申请调整。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您需要单独开具付款商品的发票，建议您重新下单（无需支付），然后联系平台客服申请开票，这样可以避免赠品信息。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "建议您重新下单，将赠品单独购买一个新订单，这样两个订单的发票都可以按您的需求开具。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到电子发票下载入口，自行打印即可。如果需要纸质发票，建议您联系平台客服申请开票，届时可备注仅需主商品部分。"
+      }
+    }
+  },
+  {
+    "id": "raw_019783_c9b93a90",
+    "prompt": "",
+    "expected_intent": "价格活动-优惠赠品",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "优惠券发放规则是根据您的消费记录自动匹配的，建议您先正常下单，系统会根据订单金额自动发放对应面额的优惠券。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "优惠券是按规则发放的，无法直接给您发送。建议您查看商品详情页或活动页面，符合条件即可领取。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前没有新券发放，建议您关注后续活动页面，通常每月10号左右会有新券上线。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前没有额外发放优惠券的活动，建议您关注商品页面或结算页的可用优惠券，以实际显示为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "优惠券是按商品发放的，您需要先选择好要购买的商品，然后在商品详情页或结算页查看可用的优惠券。如果已过期或无法使用，请检查商品页面是否有其他活动。"
+      }
+    }
+  },
+  {
+    "id": "raw_020335_11614bd4",
+    "prompt": "",
+    "expected_intent": "价格活动-优惠赠品",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，该优惠仅限一件。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，这个优惠是限一件的。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，这个优惠是限一件的。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "这个优惠是针对单件商品的，每件商品都有自己的满减门槛和优惠金额。您可以在商品详情页查看该商品对应的满减规则，或者将多个商品加入购物车后，在结算页面系统会自动计算总满减金额。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该活动是单笔订单满300元减50元，不设单件限制。您可以在结算页查看实际优惠金额。"
+      }
+    }
+  },
+  {
+    "id": "raw_020989_34781d3d",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单未发货，无法直接修改送货时间。如果您希望延迟到5号，请在订单详情页点击“申请修改”尝试调整，若无法修改，建议您取消订单重新下单。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单未发货，无法直接修改送货时间。建议您取消订单重新下单，选择有货的商品和您希望的配送时间。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单已发货，无法修改送货时间。建议您关注物流信息，如有需要可联系配送员协商。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前订单尚未发货，无法直接修改送货时间。建议您关注物流信息，待发货后联系快递员协商配送时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前订单尚未发货，无法直接修改送货时间。建议您取消订单重新下单，并在下单时选择5号的配送时间。"
+      }
+    }
+  },
+  {
+    "id": "raw_021322_d547299d",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果商品尚未出库，您可以尝试联系快递公司协商转寄；若已出库，则建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后通常无法直接修改地址。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您收到后拒收并重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后通常无法直接修改地址。如果商品还未出库，您可以尝试联系客服申请拦截修改；如果已出库，建议您收到后拒收并重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。建议您查看订单详情页是否有“修改”按钮，如果有，可以尝试自行修改；如果没有，说明订单已出库，无法更改。您也可以联系快递公司协商转寄，但需确认包裹状态。"
+      }
+    }
+  },
+  {
+    "id": "raw_021560_20772742",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交后无法直接修改收货信息。建议您联系快递员协商转寄，或者查看订单详情页是否有“修改地址”按钮尝试自助修改。如果都没有，可以申请取消重新下单。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交后，收货信息无法修改。建议您联系快递员协商转寄，或者后续订单尽量提前修改好信息。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交后无法直接修改收货信息。如果地址或电话有误，建议您联系快递公司协商转寄，或者等包裹到达站点后尝试拦截退回。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果订单还未出库，您可以尝试在订单详情页点击“修改”按钮自行更改；如果已出库，则无法在线修改，建议您联系快递员或到驿站协商。具体以订单页面显示为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交后无法直接修改收货信息。建议您联系快递员协商转寄，或者查看订单详情页是否有“修改”按钮尝试自行操作。如果按钮不可用，说明订单已无法修改。"
+      }
+    }
+  },
+  {
+    "id": "raw_022336_2cf9725b",
+    "prompt": "",
+    "expected_intent": "商品咨询-参数",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，目前该商品暂时缺货，预计一周内到货。您可以在订单详情页查看最新库存状态，或关注平台通知。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，目前该商品暂时缺货，预计需要等待一段时间才能到货。建议您关注订单详情页的更新，或联系平台客服确认具体补货时间。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，目前该商品暂时缺货，预计需要一周左右才能到货并发出。建议您关注订单详情页的物流更新，或联系平台客服确认具体补货时间。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品目前缺货，预计补货需要一周左右。您可以在商品页面查看最新库存状态，或关注补货通知。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，目前该商品暂时缺货，预计一周内到货。您可以在订单详情页查看最新物流信息，或联系平台客服确认到货时间。"
+      }
+    }
+  },
+  {
+    "id": "raw_022456_32ed8d91",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单页面显示的预计送达时间是根据您选择的地址和商品库存预估的，实际发货时间以订单详情页的“发货时间”为准。如果显示后天送达，可能是商品需要调货或配送路线调整，请您耐心等待。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单页面显示的预计送达时间是基于您选择的地址和商品库存预估的，实际发货时间以订单详情页显示的“预计发货时间”为准。如果该时间与您预期不符，请查看订单详情页的物流信息，或联系平台客服核实。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您下单时选择的是普通配送，预计后天送达。如果需要更快，请选择加急配送，具体时效以订单详情页为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您购买的是自营商品，订单详情页会显示预计送达时间，请以页面信息为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单页面显示的预计送达时间是基于您选择的地址和商品库存预估的，实际发货时间以订单详情页的“预计发货时间”为准。如果该时间与您预期不符，建议您查看订单详情页的物流信息，或联系平台客服核实具体原因。"
+      }
+    }
+  },
+  {
+    "id": "raw_022518_4e610d81",
+    "prompt": "",
+    "expected_intent": "价格活动-优惠赠品",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "电子发票无法直接删除，但您可以联系平台客服申请修改发票信息，或者在订单详情页找到发票下载入口，自行处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您不需要发票，可以在订单详情页申请取消发票开具。如果已经开具，建议您联系平台客服处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "电子发票无法直接删除，但您可以将发票内容修改为空白，这样对方收到后不会显示金额。具体操作：在订单详情页找到电子发票下载入口，点击下载后进入发票信息页面，将“发票内容”一栏清空并保存即可。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "电子发票无法直接删除，但您可以将发票信息修改为空白，或者在订单详情页申请开票时选择不显示价格。具体操作请以订单页面提示为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您备注一下，后续会联系财务处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_024356_c7546435",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，如果商品降价，我们会为您申请差价补偿。具体规则以订单详情页的价格保护说明为准，您可以在订单页面查看或联系在线客服获取详细信息。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，如果订单完成后7天内降价，您可以申请价格保护，系统会自动计算并返还差价。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，价格保护规则以订单详情页或活动页面说明为准。如果您在下单后发现商品降价，可以在订单详情页找到“申请价格保护”入口，按提示操作即可查看是否符合补差价条件。具体金额和时效以系统审核结果为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，如果在签收后7天内降价，您可以申请价格保护。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，如果订单完成后您发现商品降价，可以在订单详情页申请价格保护，系统会自动计算并返还差价。具体以页面显示为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_024563_3f279b85",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您可以在订单详情页查看物流轨迹，如果显示已签收但未收到，建议联系快递公司核实。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您可以在订单详情页查看物流轨迹，如果显示已签收但未收到，建议联系快递公司核实。另外，您也可以通过平台客服或在线帮助中心提交查询申请，我们会协助处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您的担心。建议您先查看订单详情页的物流轨迹，确认包裹是否已到达老家地址。如果物流信息显示已签收但您未收到，可以联系快递公司官方客服核实配送情况。若仍无法解决，请提供收货人手机号，我帮您转告快递员优先处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您的情况。建议您先查看订单详情页的物流信息，确认是否有更新。如果显示已签收但未收到包裹，可以联系快递公司官方客服核实配送情况。您也可以提供收货手机号，我帮您反馈给站点进一步处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您可以在订单详情页查看物流轨迹，如果显示已签收但未收到商品，建议您联系快递公司核实。同时，您也可以申请售后处理，我们会为您跟进。"
+      }
+    }
+  },
+  {
+    "id": "raw_025440_bea59cff",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，感谢您的理解。如果还有其他问题，请随时联系我们。祝您生活愉快！"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，感谢您的理解。如果后续有任何问题，随时联系我们，祝您生活愉快！"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "感谢您的理解，祝您生活愉快！"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，感谢您的理解。如果后续有任何问题，随时联系我们。祝您生活愉快！"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，感谢您的理解。如果后续有任何问题，随时联系我们，祝您生活愉快！"
+      }
+    }
+  },
+  {
+    "id": "raw_025447_7aac8e55",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装流程如下：首先确认您是否已收到安装师傅的电话预约；如果未收到，请联系厂家预约；安装时请准备好身份证和房屋产权证复印件，以便师傅登记信息。安装完成后，师傅会为您调试设备并提供使用说明。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装流程如下：首先确认您是否已收到安装师傅的预约短信；然后根据安装说明准备工具和配件；最后联系安装人员上门安装。具体步骤请参考商品详情页的安装指南或联系厂家客服获取详细说明。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装流程如下：首先，您需要联系厂家或官方售后预约安装时间；然后，师傅会上门进行安装和调试。具体可以拨打厂家售后服务热线咨询。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装流程如下：首先，您需要联系厂家预约安装时间，通常可以通过商品详情页或订单确认页找到厂家联系方式。预约成功后，厂家会安排师傅上门安装。安装前请确保已准备好燃气和电源，并仔细阅读说明书中的安装注意事项。如有疑问，可联系在线客服获取指导。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装流程如下：首先确认您是否已收到安装师傅联系方式；如果未收到，请联系厂家预约；如果已收到，按预约时间联系师傅上门安装即可。具体以订单详情页显示的信息为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_026491_5f0ca439",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，建议您重新下单选择正确的地址。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，建议您重新下单选择正确的地址。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，建议您重新下单选择正确的地址。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，建议您重新下单选择正确的地址。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，建议您重新下单选择正确的地址。"
+      }
+    }
+  },
+  {
+    "id": "raw_027499_3b1b89c9",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品目前缺货，预计需要等待一段时间才能到货。建议您关注订单详情页的更新，或联系平台客服确认具体到货时间。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品目前缺货，预计需要等待一段时间才能到货。建议您关注订单详情页的更新，或联系平台客服确认具体到货时间。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "这款商品目前缺货，预计需要一周左右才能到货并发出。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前该商品暂时缺货，预计一周左右到货。您可以在商品页面查看最新库存状态，或联系平台客服确认补货时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品目前缺货，预计需要等待一段时间才能到货。建议您关注订单详情页的更新，或联系平台客服获取最新补货信息。"
+      }
+    }
+  },
+  {
+    "id": "raw_027986_1ce04d65",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的心情。由于商品是原厂原包装发货，没有单独的棉垫配件，无法单独补发。建议您申请售后换货，我们会为您更换一个完整的新商品。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的心情。由于商品是原厂包装，没有单独的棉垫配件，无法单独补发。建议您申请售后换货，我们会为您更换一个完整的商品。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的心情。由于商品是整机发货，棉垫属于内部配件，无法单独补发。为了不影响您的使用，建议您申请售后换货，我们会尽快为您处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的心情。由于该商品没有单独的棉垫配件，我们无法单独补发棉垫。建议您通过京东APP的“我的-客户服务-退换/售后”提交换货申请，我们会尽快为您处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的需求。由于商品是原厂包装，棉垫属于商品的一部分，无法单独补发。如果您坚持需要棉垫，可以尝试联系厂家或品牌客服确认是否有单独销售的棉垫，但无法保证有货。建议您还是通过售后申请换货，我们会尽快为您处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_028009_b9630665",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。祝您生活愉快！"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，很高兴为您服务。如果后续有任何问题，随时联系我们，祝您生活愉快！"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，感谢您的支持，祝您生活愉快！"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，感谢您的支持，祝您生活愉快！"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，感谢您的支持，祝您生活愉快！"
+      }
+    }
+  },
+  {
+    "id": "raw_028443_6bf0c528",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单已到达站点，建议您先签收，退款申请会自动失效。如果需要重新下单，可以在订单详情页查看是否支持重复购买。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单已显示正在配送中，无法直接拦截。如果您希望取消退款，建议您先签收商品，退款申请会自动失效。如果后续需要处理退款，请在签收后7天内联系平台客服，提供订单号即可。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您已经申请撤销退款，但商品已送达，无法直接取消。建议您签收后，如果需要退货，可以在订单详情页提交退货申请，按流程处理即可。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您已申请撤销退款，但商品已送达，系统可能仍会按原流程处理。建议您签收后，在订单详情页查看退款状态，若显示“已撤销”则无需担心；若未撤销，请及时联系配送员说明情况，或拒收后重新下单。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单已发货，无法保证一定不送达。如果您希望取消退款，请在订单详情页的退款/售后记录中操作撤销申请。如果商品已送达，您可以正常签收，退款申请会自动失效。"
+      }
+    }
+  },
+  {
+    "id": "raw_028511_c8c9d3ab",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，目前该商品是整箱销售，无法拆分包装。建议您将两个订单合并下单，这样可以一起发货，避免分开配送。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，目前订单无法拆分发货。建议您将两个商品分别下单，这样可以分开发货。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉，目前订单无法拆分发货。建议您关注订单详情页的物流信息，如有疑问可联系快递公司核实。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单是否分包发货取决于商家的发货方式。您可以在订单详情页查看预计发货时间，如果商家支持分包，通常会在发货前通知您。建议您关注订单页面的物流更新，如有疑问可联系商家客服确认。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该订单是整单发货的，无法拆分为两个包裹。如果您需要分开寄送，请在下单时选择不同的地址或联系客服确认是否支持分单。"
+      }
+    }
+  },
+  {
+    "id": "raw_028992_a7dc272f",
+    "prompt": "",
+    "expected_intent": "投诉-安抚升级",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉让您久等了，我会持续跟进直到包裹送达。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "实在抱歉，我会持续跟进直到您收到包裹。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "实在抱歉，我们会继续跟进直到您签收，请放心。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "实在抱歉，我们会持续跟进直到您签收，请放心。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "实在抱歉，我会持续跟进直到包裹送达，请您放心。"
+      }
+    }
+  },
+  {
+    "id": "raw_029353_169ac2bc",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果该尺码缺货，您可以尝试申请换货，但需要确认是否有其他可用尺码。如果确实没有，建议您选择退货退款。具体操作路径：订单详情页点击“申请售后”，选择“换货”或“退货”，按页面提示提交即可。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果大一码没有库存，确实无法调换。建议您查看订单详情页的“申请售后”入口，选择“换货”，系统会自动检测是否有同款其他尺码可选。如果没有，您可以选择退货重新下单。具体以售后页面显示为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，如果大码缺货，您只能选择退货重新下单。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，如果换货尺码无货，建议您直接申请退货退款，然后重新下单购买其他尺码。您可以在订单详情页找到“申请售后”入口，选择退货退款并提交。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，如果大一码没有库存，您只能选择退货重新下单。"
+      }
+    }
+  },
+  {
+    "id": "raw_029534_ec29c002",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于订单已生成且无法直接修改，建议您取消当前订单重新下单。取消后款项会原路返回，到账时间以支付渠道为准。您可以在订单详情页点击“取消订单”操作，或联系平台客服协助处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交无法直接修改。建议您取消当前订单重新下单，或者联系快递员拦截后转寄。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交无法修改。建议您取消当前订单重新下单，或者联系配送员协商处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，订单一旦提交无法修改。建议您取消当前订单重新下单，或者联系快递拦截后拒收，我们会为您处理退款。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于订单已生成，无法直接修改商品。建议您取消当前订单重新下单，或者联系平台客服申请换货处理。具体以订单详情页显示为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_029844_d62f069f",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页查看物流状态，如果显示已签收但您未收到，建议联系快递公司核实。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页查看物流轨迹，如果显示已签收但您未收到，建议联系快递公司核实。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，拒收后我们会跟踪处理，退款到账后您可以在订单详情页查看进度。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您别担心，拒收的订单我们这边可以查询到，我会跟进直到退款完成。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页查看物流状态，如果显示已签收但您未收到，建议联系快递公司核实。"
+      }
+    }
+  },
+  {
+    "id": "raw_032125_813a9dc6",
+    "prompt": "",
+    "expected_intent": "购买决策-推荐对比",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来困扰。由于系统更新，部分订单的配送时间可能需要重新审核。请您在订单详情页查看最新的预计送达时间，或联系平台客服进一步核实。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来困扰。由于库存和配送安排可能有变动，建议您以订单提交后的实际配送时间为准。如果今晚无法送达，您可以联系配送员协商或选择其他配送方式。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来困扰。由于商品库存和配送路线不同，系统会根据您实际下单时的地址和时间重新计算配送时效。建议您以订单结算页显示的预计送达时间为准，如果仍有疑问，可以联系在线客服进一步核实。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来困扰。配送时间以您下单时页面显示的为准，可能是库存或地址匹配问题导致差异。建议您选择明天送达的选项，下单后可在订单详情页查看预计送达时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来困扰。由于库存和配送安排，即使地址未变，不同时间段下单的配送时效可能不同。请您以订单提交后的页面显示为准，或联系平台客服核实具体原因。"
+      }
+    }
+  },
+  {
+    "id": "raw_032231_6a1b2f46",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会帮您联系京东客服为您处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您联系京东客服处理，请稍等。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您联系京东客服处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您联系一下。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会帮您联系京东客服处理，请保持电话畅通。"
+      }
+    }
+  },
+  {
+    "id": "raw_032346_07a498c8",
+    "prompt": "",
+    "expected_intent": "商品咨询-参数",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您在订单详情页找到该商品的子订单，点击“申请售后”并选择“缺货/少件”，上传缺失商品的照片或视频作为凭证。我们会尽快核实处理，您也可以联系平台官方客服进一步跟进。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您核实一下情况。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您核实情况并联系仓库处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供一下订单号，我帮您核实具体情况，并尽快为您处理补发或退款。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您核实情况。如果确实少件，我们会为您安排补发或退款，请放心。"
+      }
+    }
+  },
+  {
+    "id": "raw_032667_e115192c",
+    "prompt": "",
+    "expected_intent": "商品咨询-参数",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东APP搜索该商品，点击进入商品详情页，查看“品牌”信息是否与您购买的一致。此外，商品页面会有“正品保障”标识，您也可以联系京东官方客服进一步核实。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东APP通过“我的-客户服务-退换/售后”申请售后，或电脑端通过“我的京东-客户服务-返修退换货”提交申请。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东APP通过“我的-客户服务-退换/售后”申请验货，或联系在线客服处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "我们销售的商品都是正品行货，您放心购买。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东APP通过“我的-客户服务-退换/售后”申请售后，或电脑端登录后点击“我的京东-客户服务-返修退换货”，按提示操作即可。"
+      }
+    }
+  },
+  {
+    "id": "raw_032673_9726b4d2",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不好的体验。关于补偿，建议您通过订单详情页的“申请售后”入口提交退货申请，系统会自动审核。如果商品符合质量问题，我们会尽快处理退款或换货。您也可以联系在线客服进一步协商补偿方案。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不好的体验。关于补偿，建议您申请售后处理，我们会根据实际情况为您解决。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不好的体验。关于补偿，建议您申请售后处理，我们会根据实际情况为您解决。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "这款是儿童玩具，建议您先看商品详情页的介绍视频，里面会有产品演示。如果仍有疑问，请提供商品编号，我会为您核实处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不好的体验。关于补偿，建议您先申请退货退款，如果商品确实存在质量问题，我们会在审核后为您处理。您可以在订单详情页点击“申请售后”提交退货申请，系统会自动审核并通知您结果。"
+      }
+    }
+  },
+  {
+    "id": "raw_032786_e467921d",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您核实处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您核实处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您查询具体情况，并尽快为您处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您查询具体情况，并尽快为您处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。请您提供订单号，我帮您查询处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_033111_791b25bd",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改收货信息。建议您查看订单详情页是否有“修改”按钮，若显示可修改则点击操作；若不可修改，请联系快递公司尝试拦截或重新下单。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址和收件人信息。建议您查看订单详情页是否有“修改”按钮，如果有，可以尝试自行修改；如果没有，说明订单已进入发货流程，无法修改。如果订单尚未出库，您可以联系快递公司协商转寄，但需尽快处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改收货信息。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交后，收货地址和收件人信息通常无法直接修改。建议您查看订单详情页是否有“修改”按钮，如果有，可以自行修改末级地址、联系人、电话或送货时间。如果没有该按钮，则说明订单已不支持修改，请您理解。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改收货信息。建议您查看订单详情页是否有“修改”按钮，如果有的话可以自行修改；如果没有，说明订单已进入发货流程，无法修改。您也可以联系快递公司尝试拦截或转寄，但成功率较低。"
+      }
+    }
+  },
+  {
+    "id": "raw_033287_c94eea81",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，如果尝试后仍无法解决，请联系在线客服或拨打售后热线，我们会为您安排检测和维修。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，如果尝试后仍无法解决，请提供订单号，我可以为您申请售后处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，如果尝试后仍无法解决，请提供订单号，我们为您申请售后处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，如果无效，您可以申请售后处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，如果尝试后仍无法解决，请提供订单号，我可以为您申请售后处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_034699_f6c8b789",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您是想取消当前订单还是之前未发货的订单？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您是想取消哪个订单呢？"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您是想取消整个订单还是部分商品？如果已经发货，取消后商品会退回仓库，后续退款会按原支付方式返回。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您指的是哪笔订单呢？方便提供一下订单号吗？"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您是想取消这个订单吗？"
+      }
+    }
+  },
+  {
+    "id": "raw_034908_83283a91",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您只需要将商品寄回老家即可，无需寄到您那里。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您可以在申请换货时备注一下需要寄送到老家地址，或者联系快递员协商转寄。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您可以在申请售后时备注需要寄回老家的地址，我们会按您的要求处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您可以在申请换货时备注需要将商品寄送到老家地址，或者联系快递员上门取件。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您申请换货时，系统会提示您选择退货地址，您可以选择老家的地址。"
+      }
+    }
+  },
+  {
+    "id": "raw_035308_e848c38b",
+    "prompt": "",
+    "expected_intent": "价格活动-优惠赠品",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "优惠券无法退回，建议您下次下单时直接使用。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "优惠券无法退回，建议您重新下单时使用其他优惠券。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果拦截成功，优惠券会退回；若拦截失败，请拒收包裹，优惠券也会退回。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果订单未发货，优惠券会自动退回；若已发货，需等退款完成后系统才会返还，请您关注优惠券有效期。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "优惠券无法退回，建议您重新下单时使用其他优惠券。"
+      }
+    }
+  },
+  {
+    "id": "raw_036042_2beab24c",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "配送站电话可能无法接通，建议您直接前往自提点取件。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "配送站电话可能暂时无法接通，建议您直接前往自提点取件，或者联系平台客服获取最新联系方式。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "配送站电话可能暂时无法接通，建议您直接前往地址自提，或联系在线客服获取其他联系方式。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "配送站电话可能因时间或人员变动无法接通。建议您直接前往地址自提，或联系平台客服获取其他联系方式。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "很抱歉给您带来不便。配送站电话可能因人员安排或系统问题暂时无法接通。建议您通过订单详情页的物流信息查看最新动态，或联系平台客服获取进一步帮助。"
+      }
+    }
+  },
+  {
+    "id": "raw_036507_27fe7249",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前没有到货时间，建议您关注商品页面或联系平台客服获取最新库存信息。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前没有具体到货时间，建议您关注商品页面或联系客服获取最新库存信息。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前这款商品暂时缺货，但我们会尽快采购补货。您可以在商品页面查看实时库存，或关注后续补货通知。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前没有预计时间，建议您关注商品页面，到货后会有提示。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前没有到货时间，但我们会尽快安排采购，请您关注后续通知。"
+      }
+    }
+  },
+  {
+    "id": "raw_036937_8fc84a17",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改地址或取消。建议您查看订单详情页是否有“修改”或“取消”按钮，若已超时则无法操作。如果商品已发出，您可以在物流信息中联系快递员协商转寄或拒收。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改地址或取消。建议您查看订单详情页是否有“修改”按钮，若存在可自行操作；若无，则需联系快递员协商转寄或拒收。具体以订单页面显示为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果订单尚未出库，您可以在订单详情页尝试自行修改地址或取消订单。若已出库，建议您联系快递公司协商转寄或拒收。具体以订单页面显示为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果订单尚未出库，您可以在订单详情页点击“修改地址”自行操作；如果已出库，则无法修改地址。关于取消订单，请确认商品是否有货、价格是否变动或优惠券是否过期。若确定要取消，可在订单详情页申请退款，款项将按原支付方式返回。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法直接修改地址或取消。建议您查看订单详情页是否有“修改”按钮，若存在可自行操作；若无，则需联系快递员协商转寄或拒收。"
+      }
+    }
+  },
+  {
+    "id": "raw_037393_5daac359",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您之前下单时填写的联系电话是138****5678。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您之前下单时填写的联系电话是138****5678。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您之前下单时填写的是手机号码，但具体号码无法直接提供，请您查看订单详情页中的联系方式。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页查看联系电话。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您之前下单时填写的联系电话是138****5678。"
+      }
+    }
+  },
+  {
+    "id": "raw_037530_023543f1",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装时间需要您提供地址，我帮您预约师傅上门。请问您的地址是哪里呢？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装时间需要您联系厂家预约。建议您拨打厂家售后热线，提供订单信息，他们会为您安排上门安装。您也可以在订单详情页查看厂家联系方式。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装需要预约师傅上门。您可以在京东APP通过“我的-客户服务-安装服务”在线预约，或拨打京东安装热线 400-xxx-xxxx 进行电话预约。预约时请提供订单号和地址，师傅会尽快联系您。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装需要预约厂家师傅。您可以在订单详情页找到“预约安装”入口，选择日期和时间即可。如果无法在线预约，也可以联系平台客服协助处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，安装时间需要您联系厂家预约。您可以在订单详情页找到厂家联系方式，或拨打厂家客服热线进行预约。"
+      }
+    }
+  },
+  {
+    "id": "raw_038557_c383691e",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，价保需要您提供新旧订单的订单号和商品信息，我会为您核实处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，价保需要您重新下单购买相同商品并支付，然后将新订单号提供给我，我会为您核实差价。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，价保需要您重新下一个同款同数量的新订单（不付款），然后提供新旧两个订单的信息，我们会为您处理差价。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，价保需要您提供新旧两个订单的信息：原订单（订单号）价格（原价），新订单（订单号）价格（现价）。请按此格式提供，我会为您提交价保申请。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，价保申请需要您提供新旧订单信息。请您在京东APP中点击“我的”->“客户服务”->“价格保护”，按提示填写新旧订单号和支付方式，系统会自动审核。如果符合规则，差价将原路返还。"
+      }
+    }
+  },
+  {
+    "id": "raw_038944_905cfe76",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您可以在订单详情页找到“申请售后”入口，选择“拒收”并填写原因，系统会自动处理。如果商品已签收，拒收后会有一定周期内退回仓库，具体以售后页面提示为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，第一次拒收通常不会产生费用，但具体以订单详情页显示的售后政策为准。您可以在订单详情页找到“申请售后”入口，选择拒收并上传凭证，系统会自动审核。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，第一次拒收通常不会影响您的账户，但建议您关注后续订单状态。如果新订单已发货，请及时联系快递拦截或修改地址。具体以订单详情页显示为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，第一次拒收通常不会产生额外费用，但建议您先确认商品是否符合拒收条件（如质量问题或与描述不符）。如果只是地址错误，您可以联系快递员修改配送地址，无需拒收。若坚持拒收，请在订单详情页点击“申请售后”选择“拒收”，按提示操作即可。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "第一次拒收一般不会有什么问题，但建议您先确认一下商品是否完好无损。如果商品有损坏或缺失，可以申请售后处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_039617_2681385d",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票通常随订单一起发出，如果未收到，请您提供订单号，我帮您核实处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票通常随订单一起发出，如果未收到，请您先检查一下包裹是否完整。若确实缺少发票，您可以联系平台客服申请补开，具体以订单详情页的发票信息为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票通常随商品一起发出，如果未收到，请您先检查包裹内是否有发票。若确实缺失，您可以在订单详情页申请补开发票，或联系平台客服处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，此订单开具的是电子发票，不随货寄送纸质发票。电子发票会在订单完成后48小时内自动开具，您可以在订单详情页的“发票”栏目中查看和下载。如需纸质发票，建议您联系平台客服申请换开。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票通常随商品一起发出。如果未收到，请您提供订单号，我帮您核实后联系财务处理补开。"
+      }
+    }
+  },
+  {
+    "id": "raw_039961_13998282",
+    "prompt": "",
+    "expected_intent": "商品咨询-参数",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。关于保修卡的问题，您可以查看商品详情页是否有相关说明，或联系品牌官方客服获取更准确的信息。我们会尽快为您核实并处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不好的体验。关于保修卡，建议您查看商品详情页或包装盒内的说明，通常正品会有相关凭证。如果确实没有，您可以联系品牌官方客服核实，或者申请售后处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不好的体验。关于保修卡，建议您查看商品详情页或包装盒内是否有相关卡片。如果确实缺失，您可以联系品牌官方客服申请补办，或者通过订单详情页的“申请售后”入口提交凭证，我们会尽快为您处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不好的体验。关于保修卡问题，建议您查看商品详情页或包装内的说明书，通常保修信息会在上面标注。如果您仍无法找到，可以联系品牌官方客服获取支持。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不好的体验。关于保修卡的问题，建议您查看商品详情页或联系品牌官方客服确认是否包含保修卡。如果确实没有，您可以申请售后处理，我们会尽快为您解决。"
+      }
+    }
+  },
+  {
+    "id": "raw_040266_da0bbb49",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，您可以申请退货退款，然后重新下单购买。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，您可以申请退货退款，然后重新下单购买。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，您可以申请退货退款，然后重新下单购买。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，建议您申请退货退款，然后重新下单购买其他尺寸的商品。您可以在订单详情页找到“申请售后”入口，按提示操作即可。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "是的，您可以申请退货退款后重新下单购买。"
+      }
+    }
+  },
+  {
+    "id": "raw_040436_41f4da65",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票开具进度请您关注订单详情页的发票信息，或联系平台客服查询。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票开具进度请您关注订单详情页的发票信息，通常在订单完成后7个工作日内开具。如果超过时间仍未显示，请联系平台客服核实处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票已开具，正在邮寄途中，请您耐心等待。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票开具需要您提供抬头和税号，请问您需要修改发票信息吗？"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "发票开具需要一定时间，请您耐心等待。"
+      }
+    }
+  },
+  {
+    "id": "raw_040501_34c91a14",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您方便提供一下您的手机号码吗？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您方便提供一下您的手机号码吗？"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您备注一下。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您备注一下。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我这边已经通知站点了，您看方便吗？"
+      }
+    }
+  },
+  {
+    "id": "raw_040555_e0a6716f",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改配送时间。如果您需要延迟配送，建议您取消当前订单重新下单，并在下单时选择合适的配送时间。具体操作路径：电脑端登录京东，在“我的京东”中找到“我的订单”，点击“取消订单”；手机端在“我的”中找到“我的订单”，点击“取消订单”。取消后重新下单时，可在结算页选择“自提”或“指定配送时间”等选项。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改配送时间。如果您希望延迟配送，建议您取消当前订单重新下单，并在下单时选择合适的配送日期。您可以在订单详情页找到取消订单的入口，或联系平台客服协助处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改配送时间。如果商品已发货，您可以联系快递公司协商改派；如果还未发货，建议您取消订单重新下单，并在下单时选择四月份的配送日期。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在3月15日送达，如果您希望延迟到4月配送，建议您取消当前订单重新下单，并在下单时选择4月的配送时间。具体配送时间以订单详情页显示为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改配送时间。如果您希望延迟配送，建议您取消当前订单重新下单，并在下单时选择合适的配送日期。具体操作路径：电脑端登录京东，在“我的订单”中找到该订单，点击“取消订单”；手机端在“我的”页面进入“我的订单”，找到订单后点击“取消订单”。取消后您可以重新下单并选择更晚的配送时间。"
+      }
+    }
+  },
+  {
+    "id": "raw_040714_f027f438",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我马上为您查询并跟进处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的心情，我会立即跟进，确保问题得到妥善处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的心情，我们会尽快核实并安排专员跟进，确保问题妥善解决。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的心情，我会立即联系售后同事核实处理，请您放心。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我马上联系同事核实处理，请您耐心等待。"
+      }
+    }
+  },
+  {
+    "id": "raw_041129_2e75aa5f",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，如果商品支持七天无理由退货，您可以申请退货后重新下单购买大一码的款式。建议您先查看订单详情页是否有“申请售后”入口，按提示操作即可。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您的情况。由于商品已发出，无法直接更换尺码。建议您收到后申请退货退款，重新下单购买大一码的商品。您可以在订单详情页找到“申请售后”入口，按提示操作即可。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常理解您的情况。由于订单已发货，无法直接修改尺码。建议您收到商品后，如果确实不合适，可以在订单详情页申请退货退款，然后重新下单购买大一码的商品。具体操作路径：打开APP，进入“我的订单”，找到该订单，点击“申请售后”选择退货退款，按页面提示填写信息并提交。退款会按原支付方式返回，预计1-3个工作日到账。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。关于换货，建议您通过订单详情页的“申请售后”入口提交换货申请，并上传商品实物照片和尺码证明，我们会尽快为您处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品支持7天无理由退货，您可以在订单详情页找到“申请售后”入口，选择“换货”，然后按页面提示上传商品照片和尺码信息即可。如果系统显示无法换货，请联系在线客服处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_041299_d1803c37",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“修改配送时间”或“预约配送”选项，根据页面提示操作即可。如果该功能不可用，建议联系配送员协商。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，目前无法保证今晚送达。建议您查看订单详情页的预计送达时间，或联系快递公司确认具体安排。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页查看是否有“今晚送达”选项，如果有，点击即可预约。如果没有该选项，说明当前时间无法满足今晚送达，建议您联系配送站点协商。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉，目前订单暂未发货，暂时无法预约今晚送达。建议您关注订单详情页的物流信息，待发货后联系快递公司协商配送时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“修改配送时间”或“预约配送”选项，根据页面提示选择今晚的时间段即可。如果该功能不可用，建议联系配送员协商。"
+      }
+    }
+  },
+  {
+    "id": "raw_041351_549567ff",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。建议您通过京东APP或网页端的订单详情页查看最新物流轨迹，如果仍未更新，可以联系快递公司官方客服核实。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于近期订单量大，物流信息更新可能有延迟。建议您关注订单详情页的物流动态，或联系快递公司官方客服核实最新进度。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于近期订单量较大，物流信息更新可能会有延迟。建议您关注订单详情页的物流轨迹，通常包裹到达站点后会尽快更新。如果长时间未更新，您可以联系快递公司官方客服核实。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于近期活动较多，部分包裹可能因分拣延迟导致物流信息未及时更新。建议您通过订单详情页的“查看物流”功能获取最新轨迹，或联系快递公司官方客服核实。我们会持续跟进直到您签收，请放心。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于近期订单量大，物流信息可能延迟更新。建议您关注订单详情页的物流动态，或联系快递公司官方客服核实。我们会持续跟进直到包裹签收，请您放心。"
+      }
+    }
+  },
+  {
+    "id": "raw_041517_5b821275",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请退款”入口，点击后系统会提示是否可以取消。如果已生成退款凭证，通常无法直接取消，建议您查看退款进度，若款项已退回，可重新下单；若未退回，可联系平台客服协商处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到退款申请，点击“撤销”即可取消。如果已发货，建议您拒收，拒收后系统会自动处理退款。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单已发货，无法直接取消。如果您不需要了，可以拒收，商品退回后会为您办理退款。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您的订单已发货，无法直接取消。如果您不需要了，可以拒收包裹，退回后我们会为您处理退款。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“取消订单”按钮，点击后系统会尝试拦截包裹。如果拦截失败，建议您收到货后拒收，拒收退回后我们会为您办理退款。"
+      }
+    }
+  },
+  {
+    "id": "raw_041767_dcdbabc0",
+    "prompt": "",
+    "expected_intent": "价格活动-优惠赠品",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，赠送的天数通常会在开通后几小时内更新到您的账户中，请稍等。如果超过24小时仍未到账，建议您通过PLUS会员页面或联系在线客服进一步确认。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，赠送的天数通常在开通后几小时内更新，请您稍后再查看PLUS会员页面。如果仍未显示，建议您联系在线客服或拨打京东客服热线进一步核实。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，赠送的天数会在开通后自动生效，建议您登录京东APP，在PLUS会员页面点击“我的会员”查看剩余有效期，或者在“我的PLUS”中确认已到账的赠送天数。如果仍未显示，请联系在线客服进一步处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，赠送的天数通常会在开通后的第二天开始生效，并自动添加到您的会员有效期中。您可以在PLUS会员页面查看剩余天数，如果仍看不到，请提供开通时间，我帮您进一步核实。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，赠送的天数通常会在开通后的几个小时内更新到您的账户中。请您在PLUS会员页面刷新或等待一段时间再查看。如果仍然未显示，建议您联系PLUS客服热线进一步确认。"
+      }
+    }
+  },
+  {
+    "id": "raw_042059_1e5082f7",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的心情，我会尽快为您处理。请问您是想申请退货还是换货呢？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常理解您的心情，我会尽快为您处理。请您放心，我们会优先安排退款，确保您尽快收到款项。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便，我会尽快为您处理，请您放心。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便，我会尽快为您处理，请您放心。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。关于您提到的差价问题，建议您通过订单详情页的“申请价保”入口提交，系统会自动审核并返还差价。具体规则以页面提示为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_042908_227d242d",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会备注提醒配送员。请问还有其他可以帮您的吗？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会备注您的需求，配送员送货时会提前联系您，您可以和他协商具体时间。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会帮您备注一下，到时配送员会提前联系您，您可以和他协商具体时间。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会帮您备注延迟配送，配送员送货前会提前联系您，请您留意电话或短信通知。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我会将您的需求反馈给站点，配送员会提前联系您，届时您可以与他协商具体时间。"
+      }
+    }
+  },
+  {
+    "id": "raw_043192_b89cb5ed",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "大家电配送需要提前预约，无法保证当天送达。建议您查看订单详情页的预计配送时间，或联系平台客服确认最新安排。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前订单已出库，无法更改配送时间。建议您关注物流信息，如有异常可联系平台客服处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。大家电配送前会提前电话联系您，确认您在家再送货，这样可以避免多次上门。如果您急需，建议您查看订单详情页的配送信息，或联系平台客服尝试协调配送时间。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前订单预计十二号送达，暂时没有更快的配送时间。建议您关注订单详情页的物流更新，如有疑问可联系平台客服核实。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "目前订单已出库，无法修改配送时间。建议您关注物流信息，或联系快递公司协商加急配送。"
+      }
+    }
+  },
+  {
+    "id": "raw_043424_e86fa970",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，感谢您的反馈。关于打火机松动的问题，建议您先检查是否因运输或使用不当导致。如果确认是质量问题，请通过订单详情页的“申请售后”提交退货或换货申请，并上传商品照片作为凭证。我们会尽快为您处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。根据您的描述，商品存在质量问题。建议您通过订单详情页的“申请售后”入口提交退货或换货申请，并上传商品松动的照片作为凭证。审核通过后会有专员联系您处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款打火机是金属材质，正常使用时会有轻微晃动，这是设计特点。如果您觉得影响使用，可以申请售后处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款打火机是厂家直接发货的，由厂家处理售后问题。请您在订单详情页找到“申请售后”入口，提交质量问题描述和照片或视频凭证，厂家会尽快为您处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。根据您的描述，商品存在质量问题。请您在订单详情页找到“申请售后”入口，选择“退货/换货”，上传商品照片或视频证明问题，提交后我们会尽快处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_043915_8b26cd2a",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "抱歉给您带来不便。您可以在订单详情页点击“申请售后”，选择退货，并填写原因和上传凭证。如果页面没有显示，请尝试刷新或重新登录查看。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "抱歉给您带来不便。如果订单详情页没有看到退货选项，请您检查一下是否已超过退货时效，或尝试刷新页面。若仍无法操作，建议您联系平台官方客服进一步处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，选择退货并提交申请。如果页面没有显示，请确认订单状态是否已出库，未出库的订单通常会有退货选项。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，如果显示退货选项，请点击操作；如果没有，可能是该订单暂不支持在线退货。建议您联系人工客服处理，电话是 400-xxx-xxxx，或通过在线客服咨询。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "抱歉给您带来不便。如果订单详情页没有看到退货选项，请您先确认是否已超过退货时效。若未过期，建议您联系在线客服或拨打售后热线，提供订单号和商品信息，我们会为您处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_045242_87cce0da",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "预计还需要1-2天。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "预计还需要1-2天。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "预计还需要1-2天。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "实在抱歉，目前看是送不到的。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "预计还需要1-2天。"
+      }
+    }
+  },
+  {
+    "id": "raw_047181_50b04889",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，点击后选择“退货”，然后填写新的地址信息即可。如果页面没有修改选项，说明该订单已无法直接修改，建议您重新提交退货申请。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您可以在订单详情页找到“申请售后”入口，重新填写正确的地址即可。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您可以在订单详情页找到售后入口，提交退货申请时填写新地址即可。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您先取消当前申请，重新提交时填写正确的地址即可。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "可以的，您可以在订单详情页找到售后入口，重新提交退货申请时填写新地址即可。"
+      }
+    }
+  },
+  {
+    "id": "raw_047661_f9bc8214",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，请问您是想取消整个订单还是部分商品呢？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，请问您是想取消整个订单还是部分商品呢？"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "请问您是想取消整个订单还是部分商品呢？"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "请问您是因为什么原因需要取消呢？"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，请问您是想取消整个订单还是部分商品呢？"
+      }
+    }
+  },
+  {
+    "id": "raw_047722_2e33c07e",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，拒收后订单状态会更新为“已取消”，但物流信息可能需要几天才能同步。您可以在订单详情页查看最新状态，如果长时间未更新，建议联系快递公司核实。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，拒收后物流会尝试退回仓库，但具体时间取决于快递公司处理速度。您可以在订单详情页查看最新物流状态，如果长时间未更新，建议联系快递公司或平台客服核实。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您已拒收，我们会尽快拦截包裹并安排退款。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，拒收后订单状态会更新为退货处理，但物流信息可能滞后。您可以在订单详情页查看最新状态，如果显示“已签收”或“退回中”，说明快递正在返回仓库。待仓库收到商品并确认后，退款会按原支付方式返还，请留意到账通知。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您拒收后订单状态会更新为“已拒收”，但物流信息可能还未同步。建议您通过订单详情页查看最新状态，如果仍显示未取消，可以再次尝试申请退款或联系快递公司处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_048599_f9febd9c",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，选择换货并备注“上门换新”，系统会自动匹配最近的站点，您也可以在售后页面查看预计到达时间。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，选择上门换新并备注您的方便时间，我们会尽快安排。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页申请上门换新，系统会安排快递员在您方便的时间上门取件并换发新电池。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以和配送员协商一个您方便的时间，比如晚上8点左右，或者让配送员放在代收点。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请售后”入口，提交换货申请后，系统会自动分配上门取件或送货换货。如果方便的话，也可以联系平台客服预约配送时间。"
+      }
+    }
+  },
+  {
+    "id": "raw_048708_2edb6cd6",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单一旦提交，通常无法修改收货地址。建议您查看订单详情页是否有“修改”按钮，若显示可修改则点击尝试；若不可修改，请联系快递公司协商转寄。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，则建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单一旦提交通常无法修改地址。如果新地址与原地址距离不远，您可以联系配送员协商；如果距离较远，建议您取消订单重新下单。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单一旦提交后，地址信息无法修改。建议您联系快递公司协商转寄，或者等包裹到达后拒收重新下单。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单一旦提交通常无法修改地址。如果新地址距离原地址不远，您可以尝试联系配送员协商转寄；如果距离较远，建议您取消订单重新下单。具体以订单详情页显示为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_048752_09328bf1",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，纸质发票需要您在订单详情页申请开具，具体路径是：电脑端登录京东，进入“我的京东”->“客户服务”->“发票服务”；手机端进入“我的”->“客户服务”->“发票服务”。请您按页面提示操作即可。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，电子发票已开具，您可以在订单详情页下载查看。纸质发票需要您自行打印，或联系平台客服申请开具。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，纸质发票需要您在订单完成后，在电脑端登录京东，进入“我的订单”找到该订单，点击“申请开票”选择“纸质发票”，并填写抬头和税号后提交。发票会在开票后3-5个工作日内邮寄给您，请留意查收。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，此订单开具的是电子发票，无法改为纸质发票。电子发票与纸质发票具有同等法律效力，您可以在订单详情页下载或查看。如需报销，请联系平台客服处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，电子发票已开具，纸质发票需要您自行打印。您可以在订单详情页下载电子发票，或联系平台客服申请开票。"
+      }
+    }
+  },
+  {
+    "id": "raw_049535_44b7eaa2",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您没有其他问题，那我先挂了，感谢您的支持！"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您没有其他问题，那我先帮您记录一下，后续会跟进处理结果。感谢您的耐心等待！"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您没有其他问题，可以点击“+”或“展开”查看是否有更多帮助内容。如果方便的话，请给个评价，您的支持是我们最大的动力！"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不客气，感谢您的支持，祝您生活愉快！"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您没有其他问题，那我先结束了，感谢您的支持！"
+      }
+    }
+  },
+  {
+    "id": "raw_050369_810ee0b2",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要单独预约安装，我们提供免费上门安装服务。至于水龙头，如果您购买的是带龙头的套装，通常包含龙头；如果未包含，建议您查看商品详情页或联系客服确认是否需要额外购买。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要单独预约安装，因为商品已经包含安装服务。至于水龙头，如果您之前没有购买，建议您查看商品详情页或联系客服确认是否包含在内。如果未包含，请您自行购买。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要额外购买水龙头，因为安装服务已经包含在订单中。关于安装预约，建议您查看订单详情页的安装指引，或联系平台客服确认预约方式。如果页面没有相关信息，我可以帮您提供进一步帮助。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要额外购买水龙头，安装服务包含在订单内。关于安装预约，建议您查看订单详情页的安装指引，或联系平台客服获取预约方式。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要单独预约安装，因为商品已经包含安装服务。至于水龙头，如果您需要更换或额外购买，请在订单详情页查看是否有相关配件选项，或联系平台客服确认。"
+      }
+    }
+  },
+  {
+    "id": "raw_050373_074a0643",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，根据您的描述，耳机存在左右音量不一致的问题，属于质量问题。由于商品已拆封，我们无法直接调换，只能为您办理退货退款。退款金额以实际支付金额为准，您可以在订单详情页查看退款进度。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，根据订单详情页显示，该商品实际支付金额为498.6元，因此退款金额为300元。建议您查看订单页面确认具体金额，如有疑问可联系平台客服核实。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，根据您提供的订单信息，该商品支持7天无理由退货，但不支持质量问题换货。如果您认为商品存在质量问题，建议您通过订单详情页的“申请售后”入口提交换货申请，并上传商品故障照片或视频作为凭证。审核结果以售后页面显示为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，根据您提供的订单信息，该耳机原价500元，但实际支付金额为300元，因此退款金额以实际支付为准。如果您对换货流程或退款金额有疑问，建议您查看订单详情页的售后入口，提交换货申请并上传商品问题照片，我们会尽快为您处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，根据您的描述，商品存在左右音量不一致的问题，属于质量问题。我们建议您申请售后换货。关于退款金额差异，可能是商品实际价值与原价不符，或部分款项已用于运费等费用。请您在订单详情页点击“申请售后”，选择“换货”并上传商品问题凭证，审核通过后会有专员联系您处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_050713_0d51e6e9",
+    "prompt": "",
+    "expected_intent": "商品咨询-使用方法",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东金融App中操作，具体路径是：打开App → 点击“白条” → 进入“我的账单” → 查看分期记录。如果找不到，也可以联系京东金融客服进一步协助。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东金融App中操作，具体步骤如上所述。如果仍有疑问，建议您联系京东金融客服获取帮助。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在手机上打开京东金融App，登录后进入“白条”页面，选择“我的账单”就能看到分期记录了。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "手机端操作步骤：打开京东金融App，登录后点击底部“白条”选项，进入“我的账单”页面，找到对应订单即可看到分期信息。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在手机端打开京东金融App，登录后点击底部“白条”入口，进入“我的账单”页面，就能看到所有白条订单的分期信息了。"
+      }
+    }
+  },
+  {
+    "id": "raw_054330_c7bbd8ed",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退款需要等待商品退回仓库后才能处理。您可以在订单详情页查看退货进度，如果超过3天未收到退回信息，建议联系平台客服催促。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退款需要等待商品退回仓库后才能处理。您可以在订单详情页查看退货进度，如果超过3天未更新，请联系平台客服核实。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退款申请提交后通常需要1-3个工作日审核，具体以订单详情页显示为准。您可以在订单页面点击“申请退款”查看当前状态，若显示“审核中”则需耐心等待。如超时未更新，请联系我们进一步处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退款申请提交后通常需要1-3个工作日审核，审核通过后款项会按原支付方式返回。您可以在订单详情页查看退款进度，具体到账时间以支付渠道为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退款申请提交后需要等待审核，通常几个工作日。您可以在订单详情页查看退款进度，如果超时未更新，建议联系平台客服进一步核实。"
+      }
+    }
+  },
+  {
+    "id": "raw_054744_716c4e9b",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退货取件费用根据商品价值计算，您可以在订单详情页查看具体金额。自提点信息请登录京东APP，在“我的”页面点击“客户服务”，然后选择“自助服务”中的“自提点查询”即可获取。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退货取件费用根据商品价值计算，您可以在订单详情页的售后入口查看具体费用。关于自提点，建议您登录京东APP，在“我的”页面点击“客户服务”，进入“自助服务”选择“退换货”，系统会显示附近的自提点地址和导航信息。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退货上门取件费用根据商品重量和距离计算，您可以在订单详情页的售后入口查看预计费用。关于自提点位置，请打开京东APP，在“我的”页面点击“客户服务”，进入“自助服务”选择“自提查询”，即可看到离您最近的自提点地址和导航信息。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退货上门取件费用根据您的订单和地址不同而有所差异，具体以订单详情页的售后入口显示为准。您可以在京东APP中点击“我的”->“客户服务”->“返修/退换货”，进入后系统会提示取件费用。关于自提点，您也可以在该页面查看附近自提点信息，或访问京东帮助中心查询。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退货上门取件费用根据商品价值计算，您可以在订单详情页的售后入口查看具体费用。关于自提点位置，请打开京东APP，在“我的”页面找到“客户服务”，点击“自助服务”中的“自提点查询”，输入地址即可获取离您最近的自提点信息。"
+      }
+    }
+  },
+  {
+    "id": "raw_055181_c2d3264d",
+    "prompt": "",
+    "expected_intent": "售后-质量异常",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我们会确保商品完好无损，请放心。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我们会确保商品完好无损，请您放心。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我们会确保商品完好无损，请放心。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我们会严格把关，请您放心。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我们会确保商品完好无损，请您放心。"
+      }
+    }
+  },
+  {
+    "id": "raw_055535_6e96478f",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东自提页面选择可用的自提点，具体地址以页面显示为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您选择的是自提退货，可以在京东自提页面查看可用的自提点，并选择离您最近的站点。具体地址和营业时间以页面显示为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您选择的是自提退货，可以登录京东，在“我的订单”中找到该退货订单，点击“查看自提点”，系统会列出可用的自提点地址和营业时间。您也可以直接在自提页面选择离您最近的自提点。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "如果您选择自提退货，可以登录京东，在“我的订单”找到该退货订单，点击“查看物流”或“售后服务”，进入自提页面选择离您最近的自提点，系统会显示详细地址和营业时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东APP中点击“我的”->“客户服务”->“自助服务”->“退换/售后”，进入售后页面后，系统会自动匹配附近的自提点，您也可以在该页面查看具体地址。"
+      }
+    }
+  },
+  {
+    "id": "raw_055744_5b5dade2",
+    "prompt": "",
+    "expected_intent": "售后-质量异常",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，如果商品到货后出现质量问题，我们提供上门取件服务，无需您自行寄回。具体操作请参考订单详情页的售后入口，上传故障照片并提交申请即可。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，商品签收后7天内如有质量问题可直接退货，15天内可换货，超过15天但未超过保修期也可申请维修。具体以订单详情页的售后政策为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，商品签收后7天内质量问题可以无条件退货，15天内可以换货，超过15天但仍在保修期内，凭检测报告也可以申请维修或换货。建议您在需要时再购买，如有疑问可随时联系我们。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，我们销售的商品都是正品行货，由正规渠道采购，经过严格检验，保证质量。如果您担心质量问题，可以在签收后第一时间检查包装和外观，如有问题及时拍照联系售后处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，如果商品出现质量问题，我们提供上门取件服务，无需您自行寄送。您可以在订单详情页找到“申请售后”入口，上传故障照片或视频，审核通过后会有师傅上门检测并处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_055857_99139582",
+    "prompt": "",
+    "expected_intent": "购买决策-推荐对比",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品不包含眼镜盒。如果您需要，建议您下单时选择加购或单独购买。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品是镜片+镜框组合装，不包含眼镜盒。如果您需要眼镜盒，建议您下单时选择包含包装的商品，或在订单详情页查看是否有赠品选项。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品不包含眼镜盒。如果您需要眼镜盒，可以在订单详情页申请补发，或者联系平台客服处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品通常会附带包装，但具体是否包含眼镜盒建议您查看商品详情页的包装清单说明。如果页面未明确标注，您可以联系品牌官方客服确认。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款商品不包含眼镜盒。如果您需要眼镜盒，建议您单独购买或联系品牌官方客服确认是否有配套配件。"
+      }
+    }
+  },
+  {
+    "id": "raw_055906_0900418d",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单已经出库了，无法修改地址。建议您联系快递公司协商转寄，或者等包裹到达后拒收重新下单。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单一旦提交，通常无法直接修改地址。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您拒收后重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单一旦提交，系统会尝试自动拦截修改。如果拦截失败，建议您联系快递公司协商转寄，或者拒收后重新下单。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单一旦提交后，地址信息通常无法直接修改。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您收到后拒收并重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "订单一旦提交通常无法修改地址。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，则无法修改。建议您查看订单详情页的物流状态，若显示“已发货”，请直接联系快递员说明情况。"
+      }
+    }
+  },
+  {
+    "id": "raw_056033_852e03c7",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，目前该商品正在促销活动中，库存有限，建议您尽快下单以确保有货。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，查询到您的订单预计在今天送达，但具体时间以实际物流信息为准。您可以在订单详情页查看最新物流轨迹，如有异常可联系快递公司或平台客服催促配送。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，根据订单信息，预计送达时间是今天下午3点左右。您可以在订单详情页查看实时物流轨迹，如有疑问可联系快递公司确认。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您的订单预计在3月15日送达，请您耐心等待。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，目前订单还未出库，预计明天送达。您可以在订单详情页查看最新物流信息，如有疑问可联系快递公司进一步确认。"
+      }
+    }
+  },
+  {
+    "id": "raw_056095_ad102e06",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票通常在订单完成后3-5个工作日内开具并寄出，您可以在订单详情页查看发票状态。如果超过时间仍未收到，请联系平台客服核实。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票通常在订单完成后3-5个工作日内开具并寄出，具体以订单详情页显示的开票时间为准。您可以在订单页面查看预计送达时间。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，电子发票会在订单完成后48小时内开具，您可以在订单详情页查看并下载。如需纸质发票，建议您联系平台客服申请补寄，具体以订单页面提示为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，此单是电子发票，订单完成后48小时内会开具并发送到您填写的邮箱，请注意查收。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，发票通常在订单完成后3-5个工作日内开具并寄出。您可以在订单详情页查看发票状态，若超过时间未收到，请联系平台客服处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_056523_d2651524",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，缺货订单通常需要等待补货。您可以在订单详情页查看预计到货时间，或联系平台客服确认具体安排。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该商品目前缺货，预计需要等待一段时间才能到货。建议您关注订单详情页的更新，或联系平台客服确认具体补货时间。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该商品目前缺货，预计需要等待补货后才能发出。建议您关注订单详情页的更新，或联系平台客服获取最新进度。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该商品目前缺货，预计补货需要3-5天。您可以在订单详情页查看最新库存状态，或联系平台客服确认补货时间。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，该商品目前缺货，预计需要等待到货后才能发货。您可以在订单详情页查看预计到货时间，或联系平台客服获取最新进度。"
+      }
+    }
+  },
+  {
+    "id": "raw_056911_7ec29b3e",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要收货，取消后商品不会派送，直接退款即可。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要收货，取消后商品不会继续配送，直接退款即可。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要收货，取消后商品会直接拦截退回，无需您操作。退款会在商品退回仓库后处理，款项原路返回。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要收货，直接等待退款即可。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您不需要收货，取消后商品会直接退回仓库，无需您操作。退款会在商品退回后处理，具体到账时间以支付渠道为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_057014_d6c074d0",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "退款进度以订单详情页显示为准。如果配送未拦截，您可以在订单页面点击“申请退款”并选择“取消订单”，系统会自动处理。退款到账时间通常为1-7个工作日，请留意账户变动。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "退款会在取消成功后按原支付方式返回，具体到账时间以支付平台为准。建议您关注订单详情页的退款进度，退款完成后即可重新下单。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "退款会在订单取消并退回仓库后处理，通常需要1-3个工作日到账，请您耐心等待。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "退款申请已提交，但需要等待配送拦截成功后才能处理。建议您关注订单详情页的退款进度，一旦拦截成功，款项会按原支付方式退回。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "退款进度以订单详情页显示为准。如果配送未拦截成功，您可以在订单详情页点击“申请退款”并选择原因，系统会自动审核。一般审核通过后，款项会在1-7个工作日内原路返还，请留意账户变动。"
+      }
+    }
+  },
+  {
+    "id": "raw_058298_a2eee4aa",
+    "prompt": "",
+    "expected_intent": "物流-查件催发",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，这款商品预计一周内到货，具体送达时间以订单详情页显示的物流信息为准。您可以在订单页面查看最新物流动态，如有疑问可联系快递公司进一步确认。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，补货后会尽快安排发货，具体送达时间以订单详情页显示的物流信息为准。您可以在订单页面查看预计到达时间，如有疑问可联系快递公司确认。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，补货周期大约一周，但具体时间无法保证，建议您关注订单详情页的物流更新，到货后会第一时间为您安排发货。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，补货后我们会尽快安排发货，但具体送达时间无法保证，建议您关注订单详情页的物流更新。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，补货后我们会尽快安排发货，具体送达时间以订单详情页显示的物流信息为准。您可以在订单页面查看预计到达时间，如有疑问可联系快递公司确认。"
+      }
+    }
+  },
+  {
+    "id": "raw_058587_ab2fa9df",
+    "prompt": "",
+    "expected_intent": "商品咨询-参数",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，已为您备注，后续会优先安排原装出库发货。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，已记录您的需求，会通知仓库优先安排原装出库发货。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，已记录您的要求，会通知仓库按原装出库处理，避免二次销售货。感谢您的配合！"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您备注一下。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，已记录您的需求，会通知仓库优先处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_058699_3cd2aba8",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便，我们会尽快安排发货，请您耐心等待。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便，我们会尽快安排发货，请您耐心等待。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便，我们会尽快安排发货，请您耐心等待。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "感谢您的理解，祝您生活愉快！"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便，我们会尽快安排配送，请您耐心等待。"
+      }
+    }
+  },
+  {
+    "id": "raw_059223_f052ade2",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交无法直接修改颜色。如果您需要更换颜色，建议您取消当前订单重新下单，选择正确的颜色。取消订单前请注意查看是否有其他商品一起下单，避免影响其他订单。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉给您带来不便。由于订单已发货，无法直接更换颜色。建议您收到后拒收，然后重新下单购买其他颜色的商品。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，非常抱歉，订单一旦提交后无法修改颜色。建议您取消当前订单重新下单，选择正确的颜色。取消订单可在订单详情页操作，退款会按原支付方式返回。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单提交后通常不支持修改颜色。建议您取消当前订单重新下单，或者收到货后申请退货退款，再重新购买您喜欢的颜色。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，这款手包目前没有其他颜色可选。如果您需要其他颜色，建议您重新下单购买对应颜色的商品。"
+      }
+    }
+  },
+  {
+    "id": "raw_059790_27c4c5c4",
+    "prompt": "",
+    "expected_intent": "物流-配送调整",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。建议您查看订单详情页是否有“修改”按钮，如果有的话可以尝试修改；如果没有，说明订单已进入出库流程，无法更改。您也可以联系快递公司协商转寄，但需确认包裹是否已发出。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单提交后通常无法修改地址。如果订单尚未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您直接与配送员沟通，看是否能安排送到新地址。具体以订单详情页显示的状态为准。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果包裹还未出库，您可以尝试联系快递公司协商转寄；如果已出库，建议您收到后拒收并重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果商品还未出库，您可以尝试联系快递公司拦截转寄；如果已出库，建议您收到后拒收并重新下单。具体以订单详情页显示的状态为准。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，订单一旦提交通常无法修改地址。如果商品还未出库，您可以尝试联系快递公司协商转寄；如果已出库，则建议您收到后拒收并重新下单。具体以订单详情页显示的状态为准。"
+      }
+    }
+  },
+  {
+    "id": "raw_059879_6b9582f2",
+    "prompt": "",
+    "expected_intent": "闲聊-礼貌收尾",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，我们会尽快安排发货，确保您及时收到。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于订单量大，配送可能需要延迟，建议您关注物流信息，如有需要可联系快递公司协商。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。目前订单还未出库，您可以尝试在订单详情页点击“修改地址”或“联系客服”申请修改配送地址。如果无法修改，建议您取消订单重新下单，并填写正确的地址。具体以订单页面显示为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，目前订单还未出库，我们会尽快为您安排发货，请留意物流信息更新。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，我们会尽快安排发货，确保您及时收到。"
+      }
+    }
+  },
+  {
+    "id": "raw_059982_5b256ff6",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您取消价保申请。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您取消价保申请。请问您是想取消整个订单还是部分商品？"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您取消价保申请。请问还有其他可以帮您的吗？"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您取消价保申请。如果您需要退货，请在订单详情页找到“申请售后”入口，选择退货并提交。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "好的，我帮您取消价保申请。请问还有其他可以帮您的吗？"
+      }
+    }
+  },
+  {
+    "id": "raw_060142_ccbcd858",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要先还白条。您可以在手机端APP操作：打开“我的”页面，点击“白条”，进入“还款记录”，找到对应订单，点击“申请延期还款”即可。延期成功后，差价会按原支付方式返还。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要先还白条。您取消新订单后，差价会自动返还到您的储蓄卡账户，请留意到账。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要先还白条。您取消新订单后，差价会原路返还到您的白条额度中，无需额外操作。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要您主动还款，系统会自动处理。差价会在退款完成后按原支付方式返还，请您关注退款进度即可。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要先还白条。您取消新订单后，系统会自动处理价保，差价会按原支付方式返还。您可以在订单详情页查看进度，或联系平台客服确认。"
+      }
+    }
+  },
+  {
+    "id": "raw_060484_3d70b1a8",
+    "prompt": "",
+    "expected_intent": "售后-质量异常",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，非常理解您的焦急。配送部门会优先处理您的订单，但具体时间无法承诺。建议您关注订单详情页的物流更新，如有异常可联系平台客服协调。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，非常理解您的焦急。配送部门会优先处理您的订单，但具体时间无法保证。建议您关注物流信息，如有异常可联系平台客服催促。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，非常理解您的焦急。由于是鲜花，我们会优先安排配送，但具体时间无法保证。建议您关注物流信息，如果到站后仍未更新，可以联系配送员协商。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，实在抱歉，我无法保证具体时间。配送部门会尽力配送，但请您谅解。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "亲，非常理解您的焦急。配送部门会优先处理您的订单，但具体时间无法保证。建议您关注物流信息，如有异常可联系平台客服催促配送。"
+      }
+    }
+  },
+  {
+    "id": "raw_061296_c5beaf6e",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页的“白条”标签中查看当前可用的白条券及使用规则。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "白条券可以在订单结算页或商品详情页的“白条”入口查看使用规则和适用范围。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "白条券可以在商品页面或结算页查看使用条件和适用范围。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东首页搜索“白条券”，进入页面后点击“立即领取”即可看到券面信息，包括使用条件和适用商品范围。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，白条券的使用规则可以在订单结算页查看，具体以页面显示为准。您也可以在“我的-白条”中查看可用额度和有效期。"
+      }
+    }
+  },
+  {
+    "id": "raw_061652_767318f8",
+    "prompt": "",
+    "expected_intent": "投诉-安抚升级",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于订单量大，配送延迟是常见情况，建议您关注物流更新。如果后续几天仍未送达，您可以联系平台客服申请补偿或查看售后政策。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于订单量大，配送可能会有延迟。建议您关注物流详情页，如果超过预计时间仍未更新，可以联系快递公司或平台客服进一步处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于包裹已发出，建议您关注物流更新。如果长时间未更新，您可以联系快递公司官方客服核实，或通过订单详情页的“物流投诉”功能反馈，平台会协助处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于包裹已发出，建议您关注物流更新。如果长时间未更新，可以联系快递公司或平台客服申请补偿。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "非常抱歉给您带来不便。由于订单已从本地发出，建议您联系快递公司确认具体配送时间。如果确实延迟，您可以申请售后处理，我们会尽力为您解决。"
+      }
+    }
+  },
+  {
+    "id": "raw_061760_009b42e3",
+    "prompt": "",
+    "expected_intent": "价格活动-优惠赠品",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "请您放心，我们会按商品原价赔偿，您可以在京东APP搜索该商品名称，找到相同或类似商品下单即可。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的担忧。如果商品丢失，我们会按订单金额进行赔付，您可以在订单详情页申请售后处理，审核通过后款项会原路返回。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的顾虑，我们会尽快处理并告知结果，请您放心。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "理解您的顾虑，我们会尽快处理，确保您能以当前价格重新购买。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "请您放心，我们会尽快处理，确保您能收到商品。如果确实无法送达，我们会按订单金额进行赔付，您可以在订单详情页申请售后，系统会自动计算差价。"
+      }
+    }
+  },
+  {
+    "id": "raw_062223_d0dfa9fd",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要，我会跟进处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要，我会跟进直到退款完成。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要，我会跟进到订单取消成功。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要，我会跟进处理直到您签收或拒收。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "不需要，我会跟进处理，请您放心。"
+      }
+    }
+  },
+  {
+    "id": "raw_062310_352f79ec",
+    "prompt": "",
+    "expected_intent": "退款-取消价保",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退款通常会在订单完成后7-15个工作日到账，请您耐心等待。如果超过时间仍未到账，建议您联系平台客服核实处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，您退回的三本书中，有一本是赠品，赠品不支持单独退货，所以只退回了两本正书，因此只收到两本的退款。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退款是按您实际退货的商品数量和金额计算的。如果您退回了三本书但只收到两本的退款，请检查订单详情页的退款记录，确认是否所有商品都已正确提交退货申请。如果仍有疑问，建议联系平台客服进一步核实。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您一共申请了三本，但其中一本已经签收了，所以只退了两本。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，退款金额与实际退回的商品数量有关。您退回的三本书中，可能有一本未被确认或存在其他问题，建议您查看订单详情页的售后进度，或联系平台客服核实具体原因。"
+      }
+    }
+  },
+  {
+    "id": "raw_062962_f45876b2",
+    "prompt": "",
+    "expected_intent": "价格活动-优惠赠品",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "优化预计在月底完成，具体以实际订单为准。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "优化预计在月底完成，届时会根据订单金额自动调整运费。您可以在月底前下单，享受优惠。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "预计在月底前完成优化，具体以实际下单为准。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在京东APP搜索“运费”查看最新规则，或联系在线客服获取更准确的信息。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "过渡期预计持续到年底，具体时间以官方通知为准。您可以在订单详情页查看运费规则，或联系平台客服获取最新信息。"
+      }
+    }
+  },
+  {
+    "id": "raw_063592_c72044f4",
+    "prompt": "",
+    "expected_intent": "售后-退换维修",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您是想修改退货地址吗？"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您是想修改退货地址吗？"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您是想修改取件地址吗？如果是，可以提供新的地址吗？我帮您备注一下。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "请问您需要将地址修改为哪个区？我帮您联系售后处理。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您好，请问您是想修改退货地址吗？如果是，您可以登录订单详情页，在售后入口找到该订单，点击“修改取件地址”按钮，按提示操作即可。如果无法自行修改，建议您联系平台客服协助处理。"
+      }
+    }
+  },
+  {
+    "id": "raw_064262_5286db14",
+    "prompt": "",
+    "expected_intent": "售后-质量异常",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，商品在运输途中会经过多次中转，但我们会确保安全送达。关于质量问题，您可以在签收后联系在线客服或拨打售后热线申请检测，我们会尽快处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，商品在运输途中会经过多次中转，但我们会尽力确保按时送达。关于质量问题，您可以在签收后第一时间联系售后，我们会为您处理。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，商品在运输途中会经过多个站点，但我们会优先安排配送。关于质量问题，您可以在签收后第一时间拍照或视频联系售后处理，我们会尽快为您解决。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，我们有完善的售后保障。如果收到后发现质量问题，请及时拍照或视频联系售后处理，我们会尽快为您解决。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您放心，商品在运输途中会经过多次中转，但我们会尽力确保按时送达。如果收到后发现质量问题，请您及时联系在线客服或拨打售后热线，我们会为您处理退换货事宜。"
+      }
+    }
+  },
+  {
+    "id": "raw_064271_927e7a15",
+    "prompt": "",
+    "expected_intent": "发票-资质服务",
+    "history": [],
+    "responses": {
+      "rank4_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请开票”入口，按提示操作即可。如果已经无法修改，建议联系平台客服处理。"
+      },
+      "rank16_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页申请补开发票，无需退货。"
+      },
+      "rank64_qv_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页申请补开发票。如果无法自行操作，请提供订单号，我帮您核实处理。"
+      },
+      "rank16_all_linear_qlora": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页申请开票，无需退货重拍。"
+      },
+      "rank16_qv_lora_fp16": {
+        "intent": null,
+        "reply": null,
+        "raw": "您可以在订单详情页找到“申请开票”入口，按提示填写信息即可。如果已超过开票时效，建议联系平台客服处理。"
+      }
+    }
+  }
+]

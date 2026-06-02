@@ -1,0 +1,1693 @@
+[
+  {
+    "id": "raw_003471_3818c415",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "简短礼貌回应感谢，确认对话可结束，表达服务意愿。",
+    "keywords": "不客气 / 客气 / 有需要随时联系 / 很高兴为您服务"
+  },
+  {
+    "id": "raw_028009_b9630665",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "简短礼貌收尾，不展开新话题。用户已在前几轮解决了取消订单问题，最后只需回应道谢。",
+    "keywords": "不客气 / 有需要随时联系我们 / 很高兴为您服务"
+  },
+  {
+    "id": "raw_039961_13998282",
+    "scenario": "商品咨询-参数",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "对用户质疑正品的担忧表达歉意，给出通用的正品验证方法或引导查看电子保修卡/售后入口。不要求给出特定验证方式（如防伪码）。",
+    "keywords": [
+      "抱歉",
+      "正品验证",
+      "电子保修卡",
+      "售后入口",
+      "关注页面"
+    ]
+  },
+  {
+    "id": "raw_003040_496db22f",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出开票的具体路径和操作步骤（订单完成后在订单详情页下载电子发票）。",
+    "keywords": ""
+  },
+  {
+    "id": "raw_014585_336a2bb8",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "引导查看订单详情页的预计发货时间，给出催促发货或联系平台客服的路径，安抚等待情绪。",
+    "keywords": "订单详情页 / 查看预计发货 / 联系平台客服催促 / 理解着急"
+  },
+  {
+    "id": "raw_043192_b89cb5ed",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明配送会尽快安排，给出催促或关注物流的路径。",
+    "keywords": "尽快安排 /保持手机畅通 / 关注物流 / 理解着急"
+  },
+  {
+    "id": "raw_003002_43117416",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出物流当前状态的回复。",
+    "keywords": "物流动态"
+  },
+  {
+    "id": "raw_019783_c9b93a90",
+    "scenario": "价格活动-优惠赠品",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答用户想要优惠券的问题。客服无法直接发券是正常的，引导用户到领券中心和活动页面查看即可。",
+    "keywords": [
+      "领券中心",
+      "活动页面",
+      "关注",
+      "领取"
+    ]
+  },
+  {
+    "id": "raw_016366_9145024e",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户有两个订单都需调整的信息，说明两个订单的处理方式，给出后续步骤。",
+    "keywords": "两个订单 / 合理的修改路径 / 留意通知"
+  },
+  {
+    "id": "raw_048599_f9febd9c",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已安排上门换新的信息，说明配送员会联系约定时间，强调可灵活安排。或者给出其它可行的替代方案。",
+    "keywords": "配送员联系约定时间 / 上门换新 / 灵活安排"
+  },
+  {
+    "id": "raw_056095_ad102e06",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明发票邮寄时间，引导在订单详情页查看开票进度。",
+    "keywords": "发票邮寄时间 / 开票进度"
+  },
+  {
+    "id": "raw_001198_762b1226",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "安抚历史中用户要回老家的时间紧迫感，给出物流催促路径，说明可能延迟的原因（站点积压），建议关注物流更新或联系站点。",
+    "keywords": "联系站点 / 催促配送 / 关注物流详情页 / 理解着急"
+  },
+  {
+    "id": "raw_006639_5f3f9745",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明商品预计到货/发货时间，建议关注页面更新。",
+    "keywords": "预计发货时间 / 到货后第一时间安排 / 理解着急"
+  },
+  {
+    "id": "raw_034699_f6c8b789",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出取消订单的操作路径，可选项是给出退款说明。",
+    "keywords": "取消订单 / 退款"
+  },
+  {
+    "id": "raw_025447_7aac8e55",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明安装的流程，或说明哪里可以获得帮助与服务",
+    "keywords": "安装流程 / 服务"
+  },
+  {
+    "id": "raw_040714_f027f438",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户多次沟通未果的愤怒情绪，先道歉安抚。给出明确的核查路径（查看售后单物流/提供签收截图升级处理），不能只说尽快处理。",
+    "keywords": "理解愤怒 / 查看第二次退货情况"
+  },
+  {
+    "id": "raw_050373_074a0643",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明质量问题可申请换货，区分换货与退款的差异（换货不产生退款），建议查看售后单状态和金额明细。",
+    "keywords": "换货不产生退款 / 查看售后单状态 / 金额明细 / 联系人工客服"
+  },
+  {
+    "id": "raw_021322_d547299d",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "根据订单是否已出库给出不同方案：未出库尝试修改地址；已出库建议联系快递转寄或朋友代收。",
+    "keywords": "已出库 / 联系快递转寄"
+  },
+  {
+    "id": "raw_011080_0a3d577e",
+    "scenario": "售后-质量异常",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已告知充电故障排查建议和用户同意先测试原装线的信息，确认测试后仍有问题可随时联系走售后，给出后续路径。",
+    "keywords": "原装线测试 / 仍有问题随时联系 / 售后政策已说明"
+  },
+  {
+    "id": "raw_041767_dcdbabc0",
+    "scenario": "价格活动-优惠赠品",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中PLUS会员赠送天数未到账的问题，引导用户查看赠送的天数",
+    "keywords": "PLUS会员 / 赠送的天数"
+  },
+  {
+    "id": "raw_058587_ab2fa9df",
+    "scenario": "商品咨询-参数",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "按用户要求备注原装出库，确认不会发二次销售商品。不要求详细的正品保障规则说明。",
+    "keywords": [
+      "原装出库",
+      "备注",
+      "正品",
+      "二次销售"
+    ]
+  },
+  {
+    "id": "raw_020989_34781d3d",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认能否修改送货时间，可以告知用户具体路径更好",
+    "keywords": "修改送货时间"
+  },
+  {
+    "id": "dev_migrated_raw_019245_83bea3d7",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中物流联系问题和加急派送已安排的背景，对用户感谢简短礼貌回应，确认问题解决，表达服务意愿。",
+    "keywords": "客气 / 有什么需要随时联系 / 很高兴为您服务"
+  },
+  {
+    "id": "raw_004780_f9a7dc5a",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已确认退雷达和安装服务的信息，说明主产品退货路径和时效限制，如超期可建议其他渠道。或者给出其它可行方案，这一问题限制比较少。",
+    "keywords": "主产品退才能退安装服务 / 退货时效 / 订单详情页售后入口 / 二手平台备选"
+  },
+  {
+    "id": "raw_061652_767318f8",
+    "scenario": "投诉-安抚升级",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中配送延迟未达承诺的愤怒情绪，先道歉理解，明确给出延迟配送补偿的申请路径，引导查看赔付规则。",
+    "keywords": "抱歉 / 未按承诺时效送达 / 申请延迟配送补偿 / 赔付规则"
+  },
+  {
+    "id": "raw_012607_7e4e24f6",
+    "scenario": "购买决策-推荐对比",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明未选安装服务的处理方式：联系店铺补购或查看订单详情页是否可加购（或其他可行的方案）。",
+    "keywords": "未选购安装服务 / 补购安装服务"
+  },
+  {
+    "id": "raw_041517_5b821275",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明退款申请可取消，正常收货签收后自动生效",
+    "keywords": "退款 / 取消"
+  },
+  {
+    "id": "raw_041299_d1803c37",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明预约送达需要在提交订单时选择，下单后通常无法修改，引导查看详情页是否有修改入口或联系配送员协商。",
+    "keywords": "下单时选择 / 订单详情页 / 联系配送员协商"
+  },
+  {
+    "id": "raw_033287_c94eea81",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中给出的充电故障排查建议和用户确认先测试的回应，确认测试后仍有问题可随时联系。",
+    "keywords": "先测试 / 仍有问题随时联系 / 售后处理"
+  },
+  {
+    "id": "raw_008930_228bef92",
+    "scenario": "商品咨询-参数",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明下单后无法修改尺寸，建议取消当前订单重新下单选择正确尺码。",
+    "keywords": "无法修改尺寸 / 取消重新下单 / 选择L码"
+  },
+  {
+    "id": "raw_038557_c383691e",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出申请价保的通用电商流程",
+    "keywords": "申请价保"
+  },
+  {
+    "id": "raw_029353_169ac2bc",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认无货尺码无法换货，建议退货退款，给出售后入口和操作路径。",
+    "keywords": "无货无法换货 / 退货退款 / 售后入口"
+  },
+  {
+    "id": "raw_013772_cb9c9b47",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答用户的问题，有明确的答案",
+    "keywords": "订单号 / 财务 / 发票"
+  },
+  {
+    "id": "raw_039617_2681385d",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "告知用户可申请开具发票的通用路径",
+    "keywords": "开具发票 / 寄送"
+  },
+  {
+    "id": "raw_034908_83283a91",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中换货已确认和用户想改收货地址的信息，说明换货时可修改收货地址，新商品直接寄到老家。",
+    "keywords": "换货时修改收货地址 / 直接寄到老家 / 售后入口 / 不影响二次销售"
+  },
+  {
+    "id": "raw_024356_c7546435",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明价保规则：申请入口、价保周期内降价可退差、具体金额以系统审核为准。",
+    "keywords": "申请价保入口 / 价保周期 / 降价退差价 / 审核为准"
+  },
+  {
+    "id": "raw_041351_549567ff",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "解释物流信息没更新的原因（如春节假期延迟），给出查看物流轨迹和联系客服催促的路径。",
+    "keywords": "物流更新延迟 / 查看物流轨迹 / 催促"
+  },
+  {
+    "id": "raw_027499_3b1b89c9",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明预计补货时间，建议关注商品页面库存更新或设置到货通知。",
+    "keywords": "商品页面 / 预计补货 / 到货通知 / 库存更新"
+  },
+  {
+    "id": "raw_042908_227d242d",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中配送员会提前联系的背景，确认用户不方便收货，确定可行的解决方案（如和配送员协商、货物暂存于站点）。",
+    "keywords": "配送员提前电话联系 / 协商配送时间 / 站点暂存"
+  },
+  {
+    "id": "raw_013069_de11265e",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已帮用户确认了物流和师傅联系方式的背景，对感谢简短礼貌回应，表达关怀。",
+    "keywords": "客气 / 抱歉添麻烦"
+  },
+  {
+    "id": "raw_038944_905cfe76",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明拒收不会有额外费用或影响，告知拦截或拒收后的退款流程。",
+    "keywords": "无额外费用 / 拦截快递 / 拒收 / 退回退款"
+  },
+  {
+    "id": "raw_033111_791b25bd",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明订单提交后无法直接修改地址和收件人，建议配送员联系时协商调整或拒收后重新下单。",
+    "keywords": "无法直接修改 / 配送员联系时协商 / 拒收重新下单"
+  },
+  {
+    "id": "raw_028443_6bf0c528",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户撤销退款申请时恰好送货的背景，说明可直接签收、退款申请会自动取消，如不想要可拒收。",
+    "keywords": "签收后申请自动取消 / 拒收按退款流程处理 / 以售后状态为准"
+  },
+  {
+    "id": "raw_047661_f9bc8214",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明取消订单的操作入口和条件（已发货需先拒收或退货），引导到订单详情页操作。",
+    "keywords": "我的订单 / 取消订单按钮 / 已发货需拒收 / 订单详情页"
+  },
+  {
+    "id": "raw_037393_5daac359",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "帮助用户查询；或说明无法直接查看用户手机号（隐私保护），引导登录账号在订单详情页查看收货信息。",
+    "keywords": "查询 / 隐私保护"
+  },
+  {
+    "id": "raw_021560_20772742",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户确认要改电话，说明已发货无法直接修改，建议联系快递员协商更改联系方式。",
+    "keywords": "已发货无法修改 / 联系快递员协商 / 改电话号码"
+  },
+  {
+    "id": "raw_005032_c1cf7828",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已确认漏发和地址的信息，引导在订单详情页申请售后选择补发商品。",
+    "keywords": "申请售后 / 补发商品 / 订单详情页"
+  },
+  {
+    "id": "raw_057014_d6c074d0",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明退款时效（如1-3个工作日），引导在订单详情页查看退款进度，告知可申请加急退款。",
+    "keywords": [
+      "退款时效",
+      "原路返回",
+      "查看退款进度",
+      "加急退款"
+    ]
+  },
+  {
+    "id": "raw_059879_6b9582f2",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认发货仓库和预计送达时间，打消用户对发货地的疑虑。",
+    "keywords": "成都仓库发货 / 预计送达时间"
+  },
+  {
+    "id": "raw_002229_aefb8253",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户多次去提货点的愤怒和站点距离近的信息，道歉并给出具体可操作路径（联系站点优先配送/自提），安抚急用情绪。",
+    "keywords": "理解急用 / 联系站点优先配送 / 自提 / 保持电话畅通 / 抱歉"
+  },
+  {
+    "id": "raw_054744_716c4e9b",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明上门取件费用规则（通常免费或按标准），给出查询自提点的方式（App内搜索/订单页面显示）。",
+    "keywords": "上门取件费用 / App查询自提点 / 售后页面"
+  },
+  {
+    "id": "raw_032786_e467921d",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "先抱歉，说明售后政策（质保期/退换条件），给出申请售后的入口和操作步骤。",
+    "keywords": "抱歉 /申请售后入口"
+  },
+  {
+    "id": "raw_032346_07a498c8",
+    "scenario": "商品咨询-参数",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认用户指的商品，引导核实包裹和漏发情况，给出补发或退款的售后路径。不要求解释包裹拆分细节。",
+    "keywords": [
+      "核实包裹",
+      "确认商品",
+      "补发",
+      "退款",
+      "售后"
+    ]
+  },
+  {
+    "id": "raw_047181_50b04889",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明可以取消后重新申请，也给出备选方案（等取件员联系时口头说明）。",
+    "keywords": "可取消重新申请 / 取件员联系时说明"
+  },
+  {
+    "id": "raw_060484_3d70b1a8",
+    "scenario": "售后-质量异常",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户反复强调中午封门和鲜花易损的关键信息，先道歉并理解急迫性，给出替代方案（联系站点催促提前/如延迟导致损坏可通过售后维权），不能只说再耐心等待。",
+    "keywords": "理解中午封门 / 鲜花易损 / 联系站点催促 / 延迟损坏可售后维权"
+  },
+  {
+    "id": "raw_032673_9726b4d2",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户想用补偿替代退货的诉求和具体质量问题，先道歉，建议优先走售后流程（退/换/修）更有保障，补偿可尝试沟通但不保证。",
+    "keywords": "抱歉 / 优先售后流程 / 退货换货维修 / 补偿不保证 / 上传凭证"
+  },
+  {
+    "id": "raw_043915_8b26cd2a",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已告知退货路径但用户反馈找不到选项的信息，分析可能原因（超出售后时效/不符合退货条件），建议联系人工客服核实。",
+    "keywords": "超出时效 / 不符合退货条件 / 联系人工客服核实"
+  },
+  {
+    "id": "raw_029844_d62f069f",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "对用户查不到订单信息的状况，提供可行的操作路径；或者直接帮助用户跟进，无需用户查询",
+    "keywords": "订单信息 / 查询"
+  },
+  {
+    "id": "raw_007724_0af2207c",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户想要查询重庆洋人街附近自提点的信息，给出附近自提点地址或App内搜索自提点的查询方法。只要是合理的自提点即可。",
+    "keywords": [
+      "自提点",
+      "洋人街",
+      "App内搜索"
+    ]
+  },
+  {
+    "id": "raw_003137_94af1481",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "区分订单状态：未出库可尝试修改，已出库建议联系快递转寄或拦截。",
+    "keywords": "已出库 / 取消重新下单 / 联系快递转寄 / 拦截"
+  },
+  {
+    "id": "raw_028992_a7dc272f",
+    "scenario": "投诉-安抚升级",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户从催促到不满到差评威胁的升级过程，在最后一句'我先饿着'的情绪化表达面前，真诚道歉承认问题，给出平台介入的具体路径。",
+    "keywords": "真诚道歉 / 理解不满 / 平台介入处理 / 持续跟进 / 如今天未收到可申请介入"
+  },
+  {
+    "id": "raw_054330_c7bbd8ed",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明退款审核时效，告知款项原路返回，引导关注审核进度。",
+    "keywords": "退款审核时效 / 原路返回 / 关注进度"
+  },
+  {
+    "id": "raw_040266_da0bbb49",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已告知无法换货的背景，引导用户拒收或退货后重新下单。",
+    "keywords": "拒收 / 退货 / 重新下单"
+  },
+  {
+    "id": "raw_036937_8fc84a17",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "对一个请求中包含改地址和取消订单两个诉求，分别给出路径：地址联系配送员协商或按照其它方式解决，取消查看订单详情页操作。",
+    "keywords": "地址联系配送员协商 / 取消查看订单详情页 / 在线客服"
+  },
+  {
+    "id": "raw_055744_5b5dade2",
+    "scenario": "售后-质量异常",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史已告知完整售后政策，打消用户对质量的顾虑，说明售后流程明确有保障，支持其需要时再买的决定。",
+    "keywords": "售后政策明确 / 7天退15天换一年保修 / 需要时再买"
+  },
+  {
+    "id": "raw_043424_e86fa970",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "对质量问题表示抱歉，给出申请售后的具体操作路径。",
+    "keywords": "抱歉 / 申请售后 / 我的-返修退换 / 提交申请"
+  },
+  {
+    "id": "raw_035308_e848c38b",
+    "scenario": "价格活动-优惠赠品",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中取消订单和用户关注优惠券退回的问题，说明取消订单后有效期内优惠券会自动返还，引导查看优惠券页面。",
+    "keywords": "取消订单优惠券自动返还 / 有效期内 / 我的优惠券页面查看"
+  },
+  {
+    "id": "raw_036042_2beab24c",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "对电话不通表达歉意，给出替代方案（联系平台客服代为催促/直接前往站点）。",
+    "keywords": "抱歉 / 直接前往站点 /  联系平台客服"
+  },
+  {
+    "id": "raw_040501_34c91a14",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已安排上门取件和用户错过了来电的背景，告知已备注再次联系，请保持手机畅通。",
+    "keywords": "上门取件 / 保持手机畅通 / 稍后再次致电"
+  },
+  {
+    "id": "raw_032667_e115192c",
+    "scenario": "商品咨询-参数",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出验证正品的方法。",
+    "keywords": "验证正品"
+  },
+  {
+    "id": "raw_000683_972e7226",
+    "scenario": "购买决策-推荐对比",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "分别回答两个问题，有作答即可",
+    "keywords": "E卡付款 / 转到银行卡"
+  },
+  {
+    "id": "raw_040555_e0a6716f",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答用户的问题（是否可以延期配送），并给出理由；说明配送时会再联系客户。或者给出其它可行的方案。",
+    "keywords": "可以/不可以，配送时联系"
+  },
+  {
+    "id": "raw_028511_c8c9d3ab",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明包裹拆分规则，能拆则告知拆分的方式",
+    "keywords": "拆分包裹 / 订单详情页 / 物流信息"
+  },
+  {
+    "id": "raw_047722_2e33c07e",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明拒收后商品退回仓库会自动办理退款，款项原路返回，让用户安心等待。",
+    "keywords": "拒收后退回仓库 / 自动办理退款 / 原支付方式返还"
+  },
+  {
+    "id": "raw_008012_0d888da6",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史已确认年后重新邮寄的约定，说明已在核实物流状态，引导查看订单详情页物流轨迹或联系客服。",
+    "keywords": [
+      "年后重新邮寄",
+      "核实物流",
+      "订单详情页",
+      "联系客服"
+    ]
+  },
+  {
+    "id": "raw_059982_5b256ff6",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认已提交退款申请，告知款项原路返回，引导查看订单详情页退款进度。",
+    "keywords": "退款申请已提交 / 原支付方式返回 / 查看退款进度"
+  },
+  {
+    "id": "raw_061760_009b42e3",
+    "scenario": "价格活动-优惠赠品",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中商品可能丢失和用户担心重新下单价格差的问题，说明如确认丢失按订单金额赔付，建议关注商品活动或申请价保。",
+    "keywords": "确认丢失按订单金额赔付 / 关注同款活动 / 申请价保"
+  },
+  {
+    "id": "raw_006150_18410b42",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已确认物流和用户担心镜头质量的背景，说明售后保障政策，让用户放心。",
+    "keywords": "收货后先检查 / 售后保障政策 / 放心"
+  },
+  {
+    "id": "raw_016750_27a70295",
+    "scenario": "售后-质量异常",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明京东卡作为支付方式的使用条件，以订单结算页显示为准。",
+    "keywords": "京东卡 / 支付页面选择 / 结算页显示"
+  },
+  {
+    "id": "raw_055535_6e96478f",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户找不到退货地址的困惑，明确说明退货地址在App退货页面中显示。",
+    "keywords": "退货页面 / 退货地址"
+  },
+  {
+    "id": "raw_017507_fba05973",
+    "scenario": "购买决策-推荐对比",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明下单后无法修改门店信息，建议取消重新下单选择正确门店。",
+    "keywords": "无法修改门店 / 取消重新下单 / 选择门店"
+  },
+  {
+    "id": "raw_007236_284fbc78",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明取消订单无法恢复，给出替代方案。",
+    "keywords": "无法直接恢复 / 替代方案"
+  },
+  {
+    "id": "raw_010194_e1f9b562",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已确认商品和用户对降价的抱怨，确认价保规则符合，告知已申请成功和退款方式。也可说明其它内容，只要能满足用户需求即可。",
+    "keywords": "价保规则 / 差价退款按购买数量退还"
+  },
+  {
+    "id": "raw_032231_6a1b2f46",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "帮助用户解决问题，例如开通退货权限；或者说明无法开通，并解释原因。",
+    "keywords": "退货权限"
+  },
+  {
+    "id": "raw_005766_14a0e76d",
+    "scenario": "售后-质量异常",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明售后换新后旧件通常需返回，可联系售后确认处理方式",
+    "keywords": "售后 / 旧件"
+  },
+  {
+    "id": "raw_022518_4e610d81",
+    "scenario": "价格活动-优惠赠品",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "告知发票信息通常不随商品寄出，收货人不会看到价格。",
+    "keywords": "发票不随商品寄出 / 收货人不会看到价格"
+  },
+  {
+    "id": "raw_037530_023543f1",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答用户的问题，给出安装的预计时间",
+    "keywords": "预约安装"
+  },
+  {
+    "id": "raw_059790_27c4c5c4",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明订单提交后地址无法直接修改，给出替代方案（联系快递转寄/拒收重下）。",
+    "keywords": "无法直接修改 / 联系快递转寄 / 拒收重下"
+  },
+  {
+    "id": "raw_048708_2edb6cd6",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明地址无法修改，并说明替代方案。",
+    "keywords": "无法修改 / 取消重下单 / 设置新地址"
+  },
+  {
+    "id": "raw_022456_32ed8d91",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "解释页面预估与实际可能有差异的原因，引导查看订单详情页的最终预计送达时间。",
+    "keywords": "订单详情页 / 预计送达时间 / 以实际为准"
+  },
+  {
+    "id": "raw_020335_11614bd4",
+    "scenario": "价格活动-优惠赠品",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答用户问题，或引导用户进行查询",
+    "keywords": "满减 / 限一件 / 查看促销规则"
+  },
+  {
+    "id": "raw_027986_1ce04d65",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已两次解释无法单独补发的原因，耐心重申只能换货，给出换货的操作入口。",
+    "keywords": "原厂原包装 / 无法单独补发 / 换货 / 售后入口"
+  },
+  {
+    "id": "raw_012750_4818183c",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "分别回答发票和延保单的问题",
+    "keywords": "发票 / 延保单"
+  },
+  {
+    "id": "dev_migrated_raw_002420_209913ba",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "对用户感谢简短礼貌回应，确认无其他问题后收尾。",
+    "keywords": "不客气 / 很高兴为您服务 / 还有其他可以帮到您的吗"
+  },
+  {
+    "id": "raw_055857_99139582",
+    "scenario": "购买决策-推荐对比",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答了用户问题即可",
+    "keywords": "眼镜盒"
+  },
+  {
+    "id": "raw_058298_a2eee4aa",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已告知缺货补货预计一周，再次说明具体到货以订单详情页为准，建议关注页面更新。",
+    "keywords": "缺货补货中 / 订单详情页 / 关注更新 / 到货后尽快发货"
+  },
+  {
+    "id": "raw_026491_5f0ca439",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答用户的问题，让用户重新下单或者修改地址",
+    "keywords": "重新下单 / 正确地址"
+  },
+  {
+    "id": "raw_056033_852e03c7",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明物流当前状态和预计到达时间，给出查看物流详情页的方式。",
+    "keywords": "物流状态 / 预计明天送达 / 物流详情页"
+  },
+  {
+    "id": "raw_062310_352f79ec",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明多服务单分别处理的原因，引导查看订单详情页的售后进度，告知退款会按服务单分别到账。",
+    "keywords": "两个服务单分别处理 / 售后进度 / 分别到账 / 原路返回"
+  },
+  {
+    "id": "raw_049535_44b7eaa2",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认用户正在收尾，礼貌回应。",
+    "keywords": "礼貌回应"
+  },
+  {
+    "id": "raw_064271_927e7a15",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "告知用户可以在平台查看发票，无需退货重拍",
+    "keywords": "发票 / 无需退货重拍"
+  },
+  {
+    "id": "raw_042059_1e5082f7",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认处理进度或者结果，适当表达歉意",
+    "keywords": "已处理 / 差价退还 / 原支付账户 / 留意查收 / 祝生活愉快"
+  },
+  {
+    "id": "raw_006549_f1173564",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明修改地址的条件限制，建议取消重下（提醒确认库存和价格），或联系配送员协商。",
+    "keywords": "确认库存和价格 / 取消重新下单 / 联系配送员协商"
+  },
+  {
+    "id": "raw_024563_3f279b85",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出核查签收的步骤（检查物流详情、确认是否他人代收），如确认未收到引导申请售后未收到货。",
+    "keywords": "检查物流详情 / 他人代收 / 申请售后未收到货 / 上传凭证"
+  },
+  {
+    "id": "dev_migrated_raw_011684_52ebc4e6",
+    "scenario": "投诉-安抚升级",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户感冒等药着急和物流太慢的愤怒情绪，先道歉安抚，给出催件和物流查询路径，说明可升级专员跟进。",
+    "keywords": "抱歉 / 理解着急 / 物流信息 / 催件 / 升级处理 / 专员跟进"
+  },
+  {
+    "id": "raw_058699_3cd2aba8",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中缺货的背景，对用户进行安慰或回应。",
+    "keywords": "感谢理解 / 关注物流 / 缺货"
+  },
+  {
+    "id": "raw_064262_5286db14",
+    "scenario": "售后-质量异常",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户对物流时效不满和担心质量的双重焦虑，先道歉和安抚，提醒收到后如发现质量问题可通过售后处理（拍照/视频凭证），给出维权路径。",
+    "keywords": "理解情人节时效落差 / 收到后检查 / 质量问题拍照留证 / 售后提交凭证"
+  },
+  {
+    "id": "raw_045242_87cce0da",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户反复追问配送时间的背景，建议关注物流更新或联系配送站点。",
+    "keywords": "关注物流更新 / 联系配送站点"
+  },
+  {
+    "id": "raw_010934_7e3b933f",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出修改地址的通用流程和后续跟进方式",
+    "keywords": "修改地址"
+  },
+  {
+    "id": "raw_059223_f052ade2",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明订单提交后无法直接修改颜色，建议申请退货后重新下单购买正确颜色。",
+    "keywords": "无法直接修改 / 退货重新下单 / 售后入口"
+  },
+  {
+    "id": "raw_017957_46035bf8",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明配送员送货前会电话联系，可以和配送员沟通协商，届时可直接沟通放在寄存点或指定位置。",
+    "keywords": "配送员电话联系 / 寄存点 / 协商放置"
+  },
+  {
+    "id": "raw_013064_52f106bb",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认快递员配送前会电话联系，提醒保持手机畅通和关注物流更新。",
+    "keywords": "快递员电话联系 / 保持手机畅通 / 关注物流跟踪"
+  },
+  {
+    "id": "raw_062962_f45876b2",
+    "scenario": "价格活动-优惠赠品",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答用户关于优化时间的疑问，引导关注订单详情页的运费规则或关注平台公告。不要求给出具体完成时间。",
+    "keywords": [
+      "关注运费规则",
+      "平台公告",
+      "优化中",
+      "结算页查看"
+    ]
+  },
+  {
+    "id": "raw_001107_656f8fa7",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "仅需告知轮胎安装的操作方式，提供一个可行的方案。",
+    "keywords": "轮胎安装"
+  },
+  {
+    "id": "raw_017597_656e918f",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明配送员联系时可直接协商更改配送时间。",
+    "keywords": "配送员电话联系 / 协商更改时间 / 明天送"
+  },
+  {
+    "id": "raw_061296_c5beaf6e",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明白条券需在京东金融App中查看使用条件和适用商品。",
+    "keywords": "京东金融App / 我的-优惠券 / 查看使用条件"
+  },
+  {
+    "id": "raw_001109_d53c7083",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "告知安装码会在订单完成后发送到预留手机号。",
+    "keywords": "安装码 / 手机号"
+  },
+  {
+    "id": "raw_050369_810ee0b2",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "分别回答两个问题，告知用户两个问题的可行方案。",
+    "keywords": "预约安装 / 水龙头"
+  },
+  {
+    "id": "raw_010322_da27dfd4",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已确认订单号和发票抬头，说明发票是否随货需以订单出库后状态为准，引导关注详情页。",
+    "keywords": "以出库后状态为准 / 订单详情页查看发票状态 / 联系平台客服确认"
+  },
+  {
+    "id": "raw_025440_bea59cff",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已确认商家同意退款的信息，再次确认退款申请已提交，告知等待商家审核即可。",
+    "keywords": "退款申请已提交 / 等待商家审核 / 原支付方式退回"
+  },
+  {
+    "id": "raw_055906_0900418d",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已确认商品是耳机，根据订单出库状态给出地址修改方案。",
+    "keywords": "已出库 / 无法直接修改 / 联系配送员 / 自助修改入口"
+  },
+  {
+    "id": "raw_017043_3404afcc",
+    "scenario": "商品咨询-参数",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中缺保护套的背景，说明尝试核实和申请补发。",
+    "keywords": "申请补发 / 商品缺漏"
+  },
+  {
+    "id": "raw_009105_9e1e2a4d",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史已告知包裹签收的信息，说明签收后需质检，确认无误后安排换货发出，给出预计处理时间。",
+    "keywords": "已签收 / 质检中 / 确认无误后发新 / 1-3个工作日"
+  },
+  {
+    "id": "raw_004486_2e709acf",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中页面承诺与实际不符引发的落差感，道歉并解释原因，给出可做的最优选项（加急催件/关注物流）。",
+    "keywords": "抱歉 / 加急配送 / 关注订单详情页 / 通知站点加急"
+  },
+  {
+    "id": "raw_050713_0d51e6e9",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户是手机端操作，给出手机端查看白条分期的具体路径",
+    "keywords": "白条分期 / 查询"
+  },
+  {
+    "id": "raw_029534_ec29c002",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明订单提交后无法直接更换商品型号，建议取消订单后重新下单，提醒取消前注意库存和价格。",
+    "keywords": "无法直接更换 / 取消重新下单 / 注意库存和价格"
+  },
+  {
+    "id": "raw_003236_12236c82",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "对取件时间能否修改进行回应，提供可操作的方案。",
+    "keywords": "取件时间"
+  },
+  {
+    "id": "raw_036507_27fe7249",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户退错地址后想重新购买的完整背景，说明退回商品入库后可能恢复库存、到货通知的设置方式，给出可操作建议。",
+    "keywords": "退货入库后可能恢复 / 到货通知 / 关注商品页面 / 采购中"
+  },
+  {
+    "id": "raw_056911_7ec29b3e",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户不想收货的意愿，确认取消订单无需收货，说明会拦截并安排退款。",
+    "keywords": "取消订单无需收货 / 拦截快递 / 退款原路返回"
+  },
+  {
+    "id": "dev_migrated_raw_030634_db9c464d",
+    "scenario": "投诉-安抚升级",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户反复追问换货运费补偿的升级情绪，先道歉，确认运费补偿规则，给出具体补偿路径。",
+    "keywords": "抱歉 / 质量问题换货 / 运费补偿 / 垫付后联系客服 / 按实际金额补偿"
+  },
+  {
+    "id": "raw_032125_813a9dc6",
+    "scenario": "购买决策-推荐对比",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "解释页面提示可能因库存或运力变化，建议以实际提交后显示的为准",
+    "keywords": "以实际提交后显示为准 / 库存或运力变化"
+  },
+  {
+    "id": "raw_022336_2cf9725b",
+    "scenario": "商品咨询-参数",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明商品现货状态和发货时间安排。",
+    "keywords": "现货状态 / 发出日期 / 送达日期"
+  },
+  {
+    "id": "raw_011903_25649ff6",
+    "scenario": "售后-质量异常",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "先道歉，说明会联系售后部门核实配件去向，给出申请售后补发配件的路径，建议提供寄回时的清单凭证。",
+    "keywords": "抱歉 / 联系售后核实 / 补发配件 / 提供寄回清单凭证"
+  },
+  {
+    "id": "raw_001302_ef17b7cc",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已告知是厂家负责安装，提供厂家电话，回答是否有安装费用。",
+    "keywords": "厂家售后电话 / 安装费用"
+  },
+  {
+    "id": "raw_060142_ccbcd858",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答最后一个问题，明确告诉用户是否需要先还白条",
+    "keywords": "先还白条"
+  },
+  {
+    "id": "raw_016950_fe3cc12e",
+    "scenario": "价格活动-优惠赠品",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明商品价格随市场活动调整，建议关注降价推送功能，引导查看活动规则。",
+    "keywords": "价格随市场调整 / 关注降价推送 / 查看活动规则"
+  },
+  {
+    "id": "raw_063592_c72044f4",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出修改退货取件地址的操作路径，区分已进入取件流程和未进入的不同处理方式。",
+    "keywords": "订单详情页 / 售后入口 / 修改取件地址 / 联系快递员"
+  },
+  {
+    "id": "raw_019493_caa7f643",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已告知电子发票含赠品且系统无法修改，引导联系报销单位确认是否接受含赠品发票，或选择不参与赠品活动的商品重新下单。",
+    "keywords": "系统自动开具无法修改 / 含赠品 / 联系报销单位确认 / 重新下单"
+  },
+  {
+    "id": "raw_056523_d2651524",
+    "scenario": "物流-查件催发",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明缺货状态和可能的时间范围，引导查看订单详情页或联系平台客服确认补货进度。",
+    "keywords": "订单详情页 / 预计发货时间 / 联系平台客服 / 补货进度"
+  },
+  {
+    "id": "raw_040436_41f4da65",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明发票开具时效，引导查看开票进度。",
+    "keywords": "发票开具时效/ 开票进度"
+  },
+  {
+    "id": "raw_003732_61e4ca6d",
+    "scenario": "闲聊-礼貌收尾",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中已说明配送会提前预约的背景，对用户的特殊家庭情况（老人接电话、农村）表达理解，确认送货前会电话预约。",
+    "keywords": "理解顾虑 / 提前预约 / 保持手机畅通"
+  },
+  {
+    "id": "raw_041129_2e75aa5f",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "确认可以换货并说明条件（不影响二次销售、保留配件），给出换货申请入口。",
+    "keywords": "不影响二次销售 / 换货申请 / 售后入口 / 附上所有配件"
+  },
+  {
+    "id": "raw_055181_c2d3264d",
+    "scenario": "售后-质量异常",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户对质量的明确担忧和拒收的警告，确认出库前会严格质检，说明如收到后发现质量问题可走售后。",
+    "keywords": "出库前严格质检 / 收到后如有问题可售后 / 退换补偿 / 放心"
+  },
+  {
+    "id": "raw_011871_bbd14cae",
+    "scenario": "商品咨询-参数",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "给出合理的方案，如换货 / 退货 / 其他售后服务。",
+    "keywords": ""
+  },
+  {
+    "id": "raw_062223_d0dfa9fd",
+    "scenario": "退款-取消价保",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "回答最后一个问题，明确告知用户是否需要自己联系厂家",
+    "keywords": "联系厂家"
+  },
+  {
+    "id": "raw_018030_dbb58b6f",
+    "scenario": "物流-配送调整",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中只能修改末级地址的信息，给出最终建议（联系快递转寄或拒收）。",
+    "keywords": "本省地址无法修改 / 联系快递转寄 / 拒收"
+  },
+  {
+    "id": "dev_migrated_raw_003946_e26a581a",
+    "scenario": "商品咨询-使用方法",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "围绕后续的安装服务进行说明（说明有没有安装服务，安装服务是否另外收费等等）",
+    "keywords": "安装服务"
+  },
+  {
+    "id": "raw_010117_972b5bef",
+    "scenario": "购买决策-推荐对比",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "利用历史中用户想送人，商品为手机的场景，引导客户进行筛选。",
+    "keywords": "送人场景 / 推荐"
+  },
+  {
+    "id": "raw_008176_0b13e4b9",
+    "scenario": "售后-退换维修",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "对用户反复操作未果的困扰表达歉意，引导检查必填项和凭证是否完整，给出备选方案（重新提交/联系在线客服转人工）。",
+    "keywords": "抱歉 / 检查必填项和凭证 / 重新提交 / 联系人工客服"
+  },
+  {
+    "id": "raw_048752_09328bf1",
+    "scenario": "发票-资质服务",
+    "expectation": {
+      "must_cover": [],
+      "should_cover": [],
+      "avoid": []
+    },
+    "expected_text": "说明纸质发票的申请方式，或者电子发票的查看路径",
+    "keywords": "电子发票 / 纸质发票"
+  }
+]

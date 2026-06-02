@@ -1,0 +1,42 @@
+{
+  "experiment": {
+    "name": "rank4_qv_qlora",
+    "group": "rank",
+    "description": "rank=4, q_proj+v_proj, QLoRA 4bit",
+    "rank": 4,
+    "alpha": 8,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "load_in_4bit": true,
+    "torch_dtype": "float16",
+    "optim": "paged_adamw_8bit"
+  },
+  "command": [
+    "torchrun",
+    "--nproc_per_node",
+    "2",
+    "--master_port",
+    "29710",
+    "scripts/train_sft.py",
+    "--config",
+    "configs/lora_ablation_baseline/rank4_qv_qlora.yaml",
+    "--base_model",
+    "/data2/songxinshuai/hf_models/Qwen3-8B"
+  ],
+  "cuda_visible_devices": "4,5",
+  "started_at": "2026-05-30T01:18:05",
+  "ended_at": "2026-05-30T02:45:08",
+  "runtime_seconds": 5223.88,
+  "return_code": 0,
+  "devices": "4,5",
+  "peak_gpu_memory_per_gpu_mib": [
+    14598,
+    14506
+  ],
+  "peak_gpu_memory_total_mib": 29104,
+  "samples": 1035,
+  "available": true,
+  "warning": null
+}

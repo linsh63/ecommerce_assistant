@@ -1,0 +1,42 @@
+{
+  "experiment": {
+    "name": "rank16_qv_lora_fp16",
+    "group": "quantization",
+    "description": "rank=16, q_proj+v_proj, FP16 LoRA without 4bit quantization",
+    "rank": 16,
+    "alpha": 32,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "load_in_4bit": false,
+    "torch_dtype": "float16",
+    "optim": "adamw_torch"
+  },
+  "command": [
+    "torchrun",
+    "--nproc_per_node",
+    "2",
+    "--master_port",
+    "29714",
+    "scripts/train_sft.py",
+    "--config",
+    "configs/lora_ablation_baseline/rank16_qv_lora_fp16.yaml",
+    "--base_model",
+    "/data2/songxinshuai/hf_models/Qwen3-8B"
+  ],
+  "cuda_visible_devices": "4,5",
+  "started_at": "2026-05-30T07:56:36",
+  "ended_at": "2026-05-30T08:43:58",
+  "runtime_seconds": 2842.411,
+  "return_code": 0,
+  "devices": "4,5",
+  "peak_gpu_memory_per_gpu_mib": [
+    21872,
+    21868
+  ],
+  "peak_gpu_memory_total_mib": 43740,
+  "samples": 563,
+  "available": true,
+  "warning": null
+}

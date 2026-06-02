@@ -1,0 +1,46 @@
+{
+  "name": "rank16_all_linear_qlora",
+  "experiment": {
+    "name": "rank16_all_linear_qlora",
+    "group": "target_modules",
+    "description": "rank=16, all linear projection modules, QLoRA 4bit",
+    "rank": 16,
+    "alpha": 32,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "load_in_4bit": true,
+    "torch_dtype": "float16",
+    "optim": "paged_adamw_8bit"
+  },
+  "source_dir": "/data2/songxinshuai/linsihan/ecommerce_assistant/outputs/lora_ablation_jddc_rebuild_v2/rank16_all_linear_qlora",
+  "target_dir": "/data2/songxinshuai/linsihan/ecommerce_assistant/docs/results/lora_ablation_jddc_rebuild_v2/rank16_all_linear_qlora",
+  "copied": [
+    "train.log",
+    "train_results.json",
+    "eval_results.json",
+    "trainer_state.json",
+    "resolved_sft_config.json",
+    "dataset_split_report.json",
+    "preprocessed_samples.jsonl",
+    "loss_history.json",
+    "loss_history.csv",
+    "loss_curve.png",
+    "eval_perplexity_curve.png",
+    "learning_rate_curve.png",
+    "grad_norm_curve.png",
+    "training_diagnostics.png",
+    "post_train_test_generations.jsonl",
+    "post_train_test_generations.md",
+    "runtime_metrics.json",
+    "config.yaml"
+  ],
+  "warnings": [],
+  "generated_at": "2026-05-30T08:43:58"
+}

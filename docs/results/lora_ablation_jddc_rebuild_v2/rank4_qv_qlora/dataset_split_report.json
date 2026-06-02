@@ -1,0 +1,9 @@
+{
+  "train_file": "/data2/songxinshuai/linsihan/ecommerce_assistant/data/processed/jddc_rebuild_v2/05_final/sft_train.jsonl",
+  "eval_file": "/data2/songxinshuai/linsihan/ecommerce_assistant/data/processed/jddc_rebuild_v2/05_final/sft_dev.jsonl",
+  "validation_split_ratio": 0.1,
+  "validation_split_size": null,
+  "split_source": "explicit_eval_file",
+  "raw_train_records": 4397,
+  "raw_eval_records": 506
+}
